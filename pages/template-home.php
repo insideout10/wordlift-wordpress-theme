@@ -4,6 +4,32 @@ Template Name: Home Template
 */
 get_header(); ?>
 
+	<div class="video-global-wrap">
+		<video class="video-about" autoplay mute loop>
+			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.mp4" type="video/mp4">
+		</video>
+
+		<video class="video-blogger" autoplay mute loop>
+			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.mp4" type="video/mp4">
+		</video>
+
+		<video class="video-editorial" autoplay mute loop>
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.mp4" type="video/mp4">
+		</video>
+
+		<video class="video-enterprise" autoplay mute loop>
+			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.mp4" type="video/mp4">
+		</video>
+	</div>
+
 	<?php while ( have_posts() ) : the_post(); ?>
         <div id="home" class="style-white top-section">
 
@@ -26,26 +52,6 @@ get_header(); ?>
 	<?php endwhile; ?>
 
     <div id="about" class="main-video">
-
-        <?php
-            $arrow_video_image = get_field( 'arrow_video_image' );
-            $arrow_video_mp4 = get_field( 'arrow_video_mp4' );
-            $arrow_video_webm = get_field( 'arrow_video_webm' );
-            $arrow_video_ogg = get_field( 'arrow_video_ogg' );
-
-            if( $arrow_video_image and $arrow_video_mp4 or $arrow_video_webm or $arrow_video_ogg ):
-        ?>
-            <div class="video">
-                <div class="video-box">
-                    <video width="1280" height="720" poster="<?php echo $arrow_video_image['sizes']['1280x720']; ?>">
-                        <?php if( $arrow_video_mp4 ): ?><source type="video/mp4" data-src="<?php echo $arrow_video_mp4; ?>"><?php endif; ?>
-                        <?php if( $arrow_video_webm ): ?><source type="video/webm" data-src="<?php echo $arrow_video_webm; ?>"><?php endif; ?>
-                        <?php if( $arrow_video_ogg ): ?><source type="video/ogg" data-src="<?php echo $arrow_video_ogg; ?>"><?php endif; ?>
-                    </video>
-                </div>
-            </div>
-        <?php endif; ?>
-
         <?php if( $about_section = get_field( 'about_section' ) ): ?>
             <div class="holder-center">
                 <section class="section-info">
@@ -59,25 +65,6 @@ get_header(); ?>
 
     <?php if( $how_it_works = get_field( 'how_it_works' ) ): ?>
         <div id="how-it-works" class="two-columns main-video">
-
-            <?php
-                $how_video_image = get_field( 'how_video_image', $how_it_works );
-                $how_video_mp4 = get_field( 'how_video_mp4', $how_it_works );
-                $how_video_webm = get_field( 'how_video_webm', $how_it_works );
-                $how_video_ogg = get_field( 'how_video_ogg', $how_it_works );
-
-                if( $how_video_image and $how_video_mp4 or $how_video_webm or $how_video_ogg ):
-            ?>
-                <div class="video">
-                    <div class="video-box">
-                        <video width="1280" height="720" poster="<?php echo $how_video_image['sizes']['1280x720']; ?>">
-                            <?php if( $how_video_mp4 ): ?><source type="video/mp4" data-src="<?php echo $how_video_mp4; ?>"><?php endif; ?>
-                            <?php if( $how_video_webm ): ?><source type="video/webm" data-src="<?php echo $how_video_webm; ?>"><?php endif; ?>
-                            <?php if( $how_video_ogg ): ?><source type="video/ogg" data-src="<?php echo $how_video_ogg; ?>"><?php endif; ?>
-                        </video>
-                    </div>
-                </div>
-            <?php endif; ?>
 
             <?php
                 $contents = get_field( 'contents', $how_it_works );
@@ -262,25 +249,6 @@ get_header(); ?>
 
     <?php if( $plans = get_field( 'plans' ) ): ?>
         <?php foreach ($plans as $plan): ?>
-            <div id="<?php echo strtolower( str_replace( ' ', '-', $plan->post_title ) ); ?>" class="main-video">
-                <?php
-                    $plan_video_image = get_field( 'plan_video_image', $plan->ID );
-                    $plan_video_mp4 = get_field( 'plan_video_mp4', $plan->ID );
-                    $plan_video_webm = get_field( 'plan_video_webm', $plan->ID );
-                    $plan_video_ogg = get_field( 'plan_video_ogg', $plan->ID );
-
-                    if( $plan_video_image and $plan_video_mp4 or $plan_video_webm or $plan_video_ogg ):
-                ?>
-                    <div class="video">
-                        <div class="video-box">
-                            <video width="1280" height="720" poster="<?php echo $plan_video_image['sizes']['1280x720']; ?>">
-                                <?php if( $plan_video_mp4 ): ?><source type="video/mp4" data-src="<?php echo $plan_video_mp4; ?>"><?php endif; ?>
-                                <?php if( $plan_video_webm ): ?><source type="video/webm" data-src="<?php echo $plan_video_webm; ?>"><?php endif; ?>
-                                <?php if( $plan_video_ogg ): ?><source type="video/ogg" data-src="<?php echo $plan_video_ogg; ?>"><?php endif; ?>
-                            </video>
-                        </div>
-                    </div>
-                <?php endif; ?>
 
                 <?php
                     $parent_id = wp_get_post_parent_id( $plan->ID );
@@ -288,7 +256,25 @@ get_header(); ?>
                 ?>
 
                 <div class="holder-center">
+
                     <section class="section-info <?php if( $parent_id ): ?>style-two<?php endif; ?>">
+
+											<!--DISPLAY LIST OF PLANS UNDER EACH SECTION-->
+											<?php if( !empty( $about_plans_links ) ): ?>
+												 <div class="custom-block">
+															<ul>
+																	<?php
+																			while( has_sub_field( 'about_plans_links', $plan->ID ) ):
+																					$link = get_sub_field( 'link' );
+																					$text = get_sub_field( 'text' );
+																					$icon = get_sub_field( 'icon' );
+																	?>
+																			<li><a href="#<?php echo strtolower( str_replace( ' ', '-', $text ) ); ?>" class="anchor-link-i"><span class="icon icon-<?php echo $icon; ?>"></span><span class="txt"><?php echo $text; ?></span></a></li>
+																	<?php endwhile; ?>
+															</ul>
+													</div>
+											<?php endif; ?>
+
                         <div class="block-info">
                             <?php if( $parent_id ): ?>
 															<div class="head">
@@ -301,22 +287,6 @@ get_header(); ?>
                         </div>
                         <?php if( $parent_id ): ?>
 
-														<!--DISPLAY LIST OF PLANS UNDER EACH SECTION-->
-                            <!-- <?php if( !empty( $about_plans_links ) ): ?>
-                               <div class="custom-block">
-                                    <ul>
-                                        <?php
-                                            while( has_sub_field( 'about_plans_links', $plan->ID ) ):
-                                                $link = get_sub_field( 'link' );
-                                                $text = get_sub_field( 'text' );
-                                                $icon = get_sub_field( 'icon' );
-                                        ?>
-                                            <li><a href="#<?php echo strtolower( str_replace( ' ', '-', $text ) ); ?>" class="anchor-link-i"><span class="icon icon-<?php echo $icon; ?>"></span><span class="txt"><?php echo $text; ?></span></a></li>
-                                        <?php endwhile; ?>
-                                    </ul>
-                                </div>
-                            <?php endif; ?> -->
-
                         <?php endif; ?>
                     </section>
                 </div>
@@ -326,24 +296,6 @@ get_header(); ?>
 
     <?php if( $planandprices = get_field( 'planandprices' ) ): ?>
         <div id="plan-and-price" class="main-video">
-            <?php
-                $planprice_video_image = get_field( 'planprice_video_image', $planandprices );
-                $planprice_video_mp4 = get_field( 'planprice_video_mp4', $planandprices );
-                $planprice_video_webm = get_field( 'planprice_video_webm', $planandprices );
-                $planprice_video_ogg = get_field( 'planprice_video_ogg', $planandprices );
-
-                if( $planprice_video_image and $planprice_video_mp4 or $planprice_video_webm or $planprice_video_ogg ):
-            ?>
-                <div class="video">
-                    <div class="video-box">
-                        <video width="1280" height="720" poster="<?php echo $planprice_video_image['sizes']['1280x720']; ?>">
-                            <?php if( $planprice_video_mp4 ): ?><source type="video/mp4" data-src="<?php echo $planprice_video_mp4; ?>"><?php endif; ?>
-                            <?php if( $planprice_video_webm ): ?><source type="video/webm" data-src="<?php echo $planprice_video_webm; ?>"><?php endif; ?>
-                            <?php if( $planprice_video_ogg ): ?><source type="video/ogg" data-src="<?php echo $planprice_video_ogg; ?>"><?php endif; ?>
-                        </video>
-                    </div>
-                </div>
-            <?php endif; ?>
             <div class="plan-wrap">
                 <div class="holder-center">
                     <div class="head">
