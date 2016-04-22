@@ -1,0 +1,22 @@
+{
+  "name": "wordlift",
+  "description": "wordlit wp theme",
+  "main": "index.php",
+  "authors": [
+    "insideout.io"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "gulp",
+    "fullpage"
+  ],
+  "homepage": "www.wordlift.it",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

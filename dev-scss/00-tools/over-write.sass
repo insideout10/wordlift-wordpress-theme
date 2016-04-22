@@ -1,0 +1,276 @@
+// B & STRONG MORE THICK
+b,
+strong
+  font-weight: 900
+
+body
+  font-weight: 200
+
+li#section-a,
+li#section-b,
+li#section-c
+  // REMOVING MARGIN AT THE END OF THE LIST
+  &:last-of-type
+    padding-bottom: 5px
+
+  li#section-c
+    padding-bottom: 10px
+
+  // DELETING EMPTY LIST ITEMS
+  ul
+    li:first-of-type
+      display: none
+
+  // CENTERING LETTERS IN RED BULLETS
+  &::before
+    padding: 6px 10px !important
+
+  // STYLING SUBSECTION BULLETS
+.work-list
+  ul
+    li
+      span.ico
+        white-space: nowrap
+        color: $wl-enterprise-color
+        width: 35px !important
+        letter-spacing: -1px
+
+// FIXING HEADER LOGO AND LETTERIN
+#wrapper
+  padding-top: 60px
+
+header#header
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  min-height: 50px
+  box-sizing: content-box
+  padding: 20px 40px
+  .header-holder
+    height: auto
+
+    .col
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: row
+      justify-content: flex-start
+
+      .logo
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: row
+
+        a
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          flex-direction: row
+          justify-content: flex-start
+          align-items: center
+          img
+            width: 50px
+            height: 50px
+            margin-right: 10px
+          span
+            font-size: 24px
+            color: #000000
+            line-height: 0.5
+  #nav
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    align-items: center
+    padding: 0
+
+    ul
+      text-transform: capitalize
+      font-weight: 500
+
+//  MAKING H1 NOT BOLD
+h1.title-section
+  font-weight: 400 !important
+
+// SWITCHING COLOR OF THE BURGER ICON
+a.nav-opener
+  background-color: transparent
+  span
+    background: $wl-dark-bg-color
+
+  &::before,
+  &::after
+    background: $wl-dark-bg-color
+
+// CHANGING P AND VIDEO LAYOUT
+li#section-a,
+li#section-b,
+li#section-c
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  flex-direction: column
+  ul
+    li
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: column
+      span
+      .section-content-wrap
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: row
+        p
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+        a
+          position: relative
+          margin: 0
+          padding: 0
+          height: 173.75px
+          transition: all 250ms ease
+          overflow: hidden
+
+          &:hover
+            background-color: $wl-white-color
+
+            img
+              opacity: 0.5
+
+          span.play-btn-wrap
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            justify-content: center
+            align-items: center
+            opacity: 0
+            transition: all 300ms linear
+            &:hover
+              opacity: 1
+              transform: scale(2)
+
+            span.play-btn
+              top: 50%
+              left: 50%
+              transition: scale 300ms ease-in
+              content: ""
+              border-left: 15px solid rgba($wl-dark-bg-color, 0.75)
+              border-top: 10px solid transparent
+              border-bottom: 10px solid transparent
+
+          img
+            margin: 0
+            padding: 0
+
+
+// STYLING PLANS BOXES
+#blogger,
+#editorial-team,
+#enterprise
+  .holder-center
+    section.section-info
+      .block-info
+        .head
+          h1
+            font-weight: 300
+            font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif
+            color: $wl-enterprise-color
+        a
+          margin-top: 20px
+        a.learn-more
+          margin-left: 15px
+          background-color: $wl-editorial-color
+          &:hover
+            color: $wl-editorial-color
+            background-color: #fff
+
+// STYLING SECTIONS
+section.section-info.style-two
+  height: 100vh
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  align-items: center
+
+// ASIDE REVAMP
+aside.sidebar.fixed
+  top: 160px
+  bottom: auto
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  padding: 20px
+
+  ol.work-list
+    li
+      padding-bottom: 20px
+      &::before
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        padding: 2px
+      &:last-of-type
+        padding-bottom: 0
+      a
+        padding-left: 5px
+        font-weight: 600
+        text-transform: uppercase
+        line-height: 1
+        &::after
+          content: none
+      ul
+        li
+          padding-bottom: 10px
+          padding-left: 20px
+          &:first-of-type
+            margin-top: 10px
+          span
+          a
+            line-height: 1.2
+            font-weight: 300
+            text-transform: capitalize
+            padding-left: 15px
+            &::after
+              content: none

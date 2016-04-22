@@ -1,0 +1,197 @@
+.holder-center
+  padding: 60px 0
+  .col
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: column
+    max-width: 700px
+    margin: auto
+
+    .col-hold
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: flex-start
+
+      .col-hold-plan-title
+        position: relative
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        width: 100%
+        background-color: $wl-white-color
+        justify-content: center
+        align-items: center
+        height: 120px
+        line-height: 1
+        z-index: 2
+        &::after
+          position: absolute
+          z-index: -1
+          bottom: -35px
+          left: 50%
+          content: ""
+          width: 40px
+          height: 40px
+          transform: rotate(45deg) translateX(calc(-50% - 8px))
+          transform-origin: center
+          box-sizing: border-box
+          background-color: $wl-white-color
+
+        h2
+          margin: 0
+          z-index: 20
+          font-weight: 700
+
+      .box-text
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+        padding-top: 40px
+        border-right: 3px solid $wl-white-color
+        border-left: 3px solid $wl-white-color
+        p
+          max-width: 350px
+          font-size: 24px
+          color: $wl-white-color
+          font-weight: 600
+          text-align: center
+          line-height: 1.5
+
+      .col-plan-list
+        position: relative
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding: 0 0 30px 0
+        width: 100%
+        border: 3px solid $wl-white-color
+        border-top: none
+        background-color: rgba($wl-dark-bg-color, .85)
+
+        &::before
+          content: " "
+          position: absolute
+          top: 0
+          left: 0
+          width: 100%
+          height: 100%
+
+        .col-details
+          width: 100%
+          z-index: 20
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          justify-content: center
+          align-items: center
+          flex-direction: column
+          background-color: rgba($wl-dark-bg-color, .75)
+          padding: 40px 0
+
+          .col-details-row
+            width: 320px
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            justify-content: space-between
+            align-items: center
+            flex-direction: row
+            &:first-of-type
+              margin-bottom: 25px
+
+            span
+              color: $wl-white-color
+              display: -webkit-inline-flex
+              display: -moz-inline-flex
+              display: -ms-inline-flex
+              display: -o-inline-flex
+              display: inline-flex
+              width: 150px
+              line-height: 24px
+              font-size: 24px
+              font-weight: 400
+              &:first-of-type
+                text-transform: uppercase
+                justify-content: flex-end
+                margin-right: 35px
+              &:last-of-type
+                font-weight: 700
+                justify-content: flex-start
+                text-transform: uppercase
+
+        ul.plan-list
+          z-index: 20
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          flex-direction: column
+          justify-content: center
+          padding: 0
+          padding-top: 40px
+          padding-left: 40px
+          margin: auto
+          max-width: 350px
+          list-style: none
+          li
+            position: relative
+            color: $wl-white-color
+            font-size: 22px
+            margin: 10px 0
+            font-weight: 500
+            text-align: left
+            line-height: 1.5
+            &::before
+              position: absolute
+              left: -25px
+              top: 12px
+              content: " "
+              background:
+                size: cover
+              width: 10px
+              height: 10px
+              box-sizing: border-box
+              padding: 0
+              margin: 0
+
+      .btn-hold
+        z-index: 20
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin: auto
+        margin-top: 45px
+        a.btn
+          width: 350px
+          color: $wl-white-color
+          &:hover
+            background-color: $wl-white-color

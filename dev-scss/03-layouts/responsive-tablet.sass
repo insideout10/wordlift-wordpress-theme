@@ -1,0 +1,427 @@
+@media screen and (max-width: 770px)
+  aside.sidebar.fixed
+    display: none  !important
+
+  main#main
+    #home
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      padding: 0 30px
+
+      ul.icon-list
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        max-width: 600px
+        margin: 0 auto
+        li
+          padding: 0
+
+  #how-it-works
+    .holder-center
+      section.section-info
+        .block-info
+          .mobile-visible
+            .preview-list
+              ol.work-list
+                display: -webkit-flex
+                display: -moz-flex
+                display: -ms-flex
+                display: -o-flex
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                max-width: 650px
+                list-style: none
+                margin: 0 auto
+
+                li
+                  padding-right: 10px
+                  &::before
+                    padding: 3.5px
+                    display: -webkit-flex
+                    display: -moz-flex
+                    display: -ms-flex
+                    display: -o-flex
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    line-height: 25
+                  &:last-of-type
+                    padding-right: 0
+                  a
+                    white-space: normal
+                    &::after
+                      display: none
+                  ul
+                    li
+                      padding: 0 0 10px 10px
+
+
+  // PRICING
+  .plan-table-wrapper
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: row
+    min-height: 200px
+    max-width: 100%
+    margin: 20px 80px
+
+    .plan-table
+      display: none
+
+    .plan-table-tablet
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      min-width: 100%
+
+      input[type=checkbox].plan-lead
+        position: absolute
+        z-index: -3000
+        display: none
+
+      label#plan-blogger,
+      label#plan-editorial,
+      label#plan-enterprise
+        position: relative
+        background-color: $wl-white-color
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        min-width: 100%
+        height: 80px
+        text-transform: uppercase
+        font-weight: 900
+        font-size: 30px
+
+      label#plan-blogger
+        color: $wl-blogger-color
+
+      label#plan-editorial
+        color: $wl-editorial-color
+
+      label#plan-enterprise
+        color: $wl-enterprise-color
+
+      .plan-details-blogger,
+      .plan-details-editorial,
+      .plan-details-enterprise
+        display: none
+        width: 100%
+        justify-content: center
+        text-align: center
+
+        .col-hold
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: flex-start
+
+          .col-hold-plan-title
+            position: relative
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            width: 100%
+            background-color: $wl-white-color
+            justify-content: center
+            align-items: center
+            height: 120px
+            line-height: 1
+            z-index: 2
+            &::after
+              position: absolute
+              z-index: -1
+              bottom: -35px
+              left: 50%
+              content: ""
+              width: 40px
+              height: 40px
+              transform: rotate(45deg) translateX(calc(-50% - 8px))
+              transform-origin: center
+              box-sizing: border-box
+              background-color: $wl-white-color
+
+            h2
+              margin: 0
+              z-index: 20
+              font-weight: 700
+
+          .box-text
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100%
+            padding-top: 40px
+            border-right: 3px solid $wl-white-color
+            border-left: 3px solid $wl-white-color
+            p
+              max-width: 350px
+              font-size: 24px
+              color: $wl-white-color
+              font-weight: 600
+              text-align: center
+              line-height: 1.5
+
+          .col-plan-list
+            position: relative
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            flex-direction: column
+            justify-content: center
+            padding: 0
+            width: 100%
+            border: 3px solid $wl-white-color
+            border-top: none
+            background-color: rgba($wl-dark-bg-color, .85)
+
+            &::before
+              content: " "
+              position: absolute
+              top: 0
+              left: 0
+              width: 100%
+              height: 100%
+
+            .col-details
+              width: 100%
+              z-index: 20
+              display: -webkit-flex
+              display: -moz-flex
+              display: -ms-flex
+              display: -o-flex
+              display: flex
+              justify-content: center
+              align-items: center
+              flex-direction: column
+              background-color: rgba($wl-dark-bg-color, .75)
+              padding: 40px 0
+
+              .col-details-row
+                width: 320px
+                display: -webkit-flex
+                display: -moz-flex
+                display: -ms-flex
+                display: -o-flex
+                display: flex
+                justify-content: space-between
+                align-items: center
+                flex-direction: row
+                &:first-of-type
+                  margin-bottom: 25px
+
+                span
+                  color: $wl-white-color
+                  display: -webkit-inline-flex
+                  display: -moz-inline-flex
+                  display: -ms-inline-flex
+                  display: -o-inline-flex
+                  display: inline-flex
+                  width: 150px
+                  line-height: 24px
+                  font-size: 24px
+                  font-weight: 400
+                  &:first-of-type
+                    text-transform: uppercase
+                    justify-content: flex-end
+                    margin-right: 35px
+                  &:last-of-type
+                    font-weight: 700
+                    justify-content: flex-start
+                    text-transform: uppercase
+
+            ul.plan-list
+              z-index: 20
+              display: -webkit-flex
+              display: -moz-flex
+              display: -ms-flex
+              display: -o-flex
+              display: flex
+              flex-direction: column
+              justify-content: center
+              padding: 0
+              padding-top: 40px
+              padding-left: 40px
+              margin: auto
+              max-width: 350px
+              list-style: none
+              li
+                position: relative
+                color: $wl-white-color
+                font-size: 22px
+                margin: 10px 0
+                font-weight: 500
+                text-align: left
+                line-height: 1.5
+                &::before
+                  position: absolute
+                  left: -25px
+                  top: 12px
+                  content: " "
+                  background:
+                    size: cover
+                  width: 10px
+                  height: 10px
+                  box-sizing: border-box
+                  padding: 0
+                  margin: 0
+
+          .btn-hold
+            z-index: 20
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin: auto
+            margin-top: 45px
+            a.btn
+              width: 350px
+              color: $wl-white-color
+              &:hover
+                background-color: $wl-white-color
+
+
+      input[type=checkbox]#plan-blogger:checked ~ label#plan-blogger,
+      input[type=checkbox]#plan-editorial:checked ~ label#plan-editorial,
+      input[type=checkbox]#plan-enterprise:checked ~ label#plan-enterprise
+        &::after
+          position: absolute
+          bottom: -20px
+          left: 50%
+          content: ""
+          width: 30px
+          height: 30px
+          transform: rotate(45deg) translateX(calc(-50% - 4px))
+          transform-origin: center
+          box-sizing: border-box
+          background-color: #fff
+
+      input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        background-color: $wl-blogger-color
+
+        .box-text
+          background-color: $wl-blogger-color
+
+        .col-plan-list
+          &::before
+            content: " "
+            background-color: rgba($wl-blogger-color , .25)
+          ul.plan-list
+            li
+              // color: $wl-blogger-color
+              &::before
+                background:
+                  image: url(./images/icon-blue.png)
+
+        a.btn
+          background-color: $wl-blogger-color
+          &:hover
+            color: $wl-blogger-color !important
+
+      input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        background-color: $wl-editorial-color
+        .box-text
+          background-color: $wl-editorial-color
+
+        .col-plan-list
+          &::before
+            content: " "
+            background-color: rgba($wl-editorial-color , .25)
+          ul.plan-list
+            li
+              // color: $wl-editorial-color
+              &::before
+                background:
+                  image: url(./images/icon-yellow.png)
+
+
+        a.btn
+          background-color: $wl-editorial-color
+          &:hover
+            color: $wl-editorial-color !important
+
+
+      input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        background-color: $wl-enterprise-color
+
+        .box-text
+          background-color: $wl-enterprise-color
+
+        .col-plan-list
+          &::before
+            content: " "
+            background-color: rgba($wl-enterprise-color , .25)
+
+          ul.plan-list
+            li
+              // color: $wl-enterprise-color
+              &::before
+                background:
+                  image: url(./images/icon-red.png)
+
+
+        a.btn
+          background-color: $wl-enterprise-color
+          &:hover
+            color: $wl-enterprise-color !important

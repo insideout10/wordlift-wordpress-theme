@@ -1,0 +1,324 @@
+.plan-table-wrapper
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  display: flex
+  flex-direction: row
+  min-height: 200px
+  box-sizing: border-box
+  margin: 20px 0 10px 80px
+
+  .plan-table-tablet
+    display: none
+
+  .plan-table
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    background-color: #fff
+
+    .col-title
+      position: relative
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      background-color: #fff
+      height: 55px
+
+      &::after
+        position: absolute
+        bottom: -20px
+        left: 50%
+        content: ""
+        width: 30px
+        height: 30px
+        transform: rotate(45deg) translateX(calc(-50% - 4px))
+        transform-origin: center
+        box-sizing: border-box
+        background-color: #fff
+
+      h3
+        margin: 0
+        padding: 0
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 55px
+        z-index: 4
+        text-transform: uppercase
+        font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif
+        font-size: 20px
+
+    .col-details
+      width: 100%
+      padding: 25px 0 15px 0
+      font-weight: 600
+      color: #ffffff
+      height: 110px
+      box-sizing: border-box
+      font-family: "Lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif
+
+    .col-content
+      position: relative
+      background-color: rgba(#ffffff, 0.75)
+      height: 540px
+      flex: 1
+
+      ul
+        padding: 0
+        padding-left: 35px
+        margin: 35px 0
+        list-style: none
+        color: #000000
+        font-weight: 400
+        li
+          margin: 20px 0
+
+      button
+        position: absolute
+        bottom: 5px
+        left: 50%
+        transform: translateX(-50%)
+        width: 80%
+        height: 40px
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        margin: 15px auto
+        border: none
+        padding: 0
+        outline: none
+        justify-content: center
+        color: white
+        text-transform: uppercase
+        font-weight: 400
+        transition: all .3s ease
+        &:hover
+          background-color: white !important
+
+
+
+    .plan-table-col-edit,
+    .plan-table-col-ent
+      .col-details
+        .col-details-wrap
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          width: 100%
+          height: 100%
+          font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif
+
+          h3
+            font-size: 20px
+            text-transform: capitalize
+            text-align: center
+            line-height: 1.2
+            margin: 0
+
+    .plan-table-col-init,
+    .plan-table-col-blog,
+    .plan-table-col-edit,
+    .plan-table-col-ent
+      display: -webkit-flex
+      display: -moz-flex
+      display: -ms-flex
+      display: -o-flex
+      display: flex
+      flex-direction: column
+      max-width: 220px
+      width: 220px
+      min-width: 180px
+
+    .plan-table-col-init
+      min-width: 280px
+      max-width: 320px
+      background-color: $wl-dark-bg-color
+
+      h3
+        color: $wl-dark-bg-color
+
+      .col-details
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        margin: auto
+        background-color: rgba(#ffffff, 0.1)
+
+        .col-details-row
+          justify-content: flex-start
+          align-items: center
+          flex-direction: row
+          transform: translateX(-7.5px)
+          span
+            display: inline-block
+            width: 80px
+            line-height: 35px
+            font-size: 18px
+            font-weight: 400
+            &:first-of-type
+              text-align: right
+              margin-right: 15px
+            &:last-of-type
+              font-weight: 700
+              text-align: left
+              text-transform: uppercase
+
+
+    .plan-table-col-blog
+      background-color: $wl-blogger-color
+      .col-title
+        h3
+          color: $wl-blogger-color
+
+      .col-details
+        font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif
+
+        .col-details-wrap
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          flex-direction: column
+          align-items: center
+          width: 100%
+
+          .col-details-top
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            flex-direction: row
+            justify-content: center
+            align-items: center
+            transform: translateX(7px)
+
+            h3
+              padding: 0
+              margin: 0
+              font-size: 65px
+              letter-spacing: -5px
+              line-height: 0.5
+              font-weight: 300
+
+            .col-details-top-right
+              display: -webkit-flex
+              display: -moz-flex
+              display: -ms-flex
+              display: -o-flex
+              display: flex
+              flex-direction: column
+              justify-content: flex-start
+              align-items: center
+              margin-left: 10px
+
+              h6
+                margin: 0
+                text-align: left
+                width: 100%
+                font-weight: 400
+                font-size: 16px
+                text-transform: uppercase
+                &:first-of-type
+                  font-size: 24px
+
+          .col-details-bottom
+            width: 100%
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            justify-content: center
+            align-items: center
+
+            h3
+              margin: 0
+              margin-top: 8px
+              font-size: 18px
+              font-weight: 400
+
+      .col-content
+        ul
+          padding-left: 0
+          li
+            text-align: center
+            width: 100%
+
+            i.icon-circle::before
+              color: $wl-blogger-color
+
+        button
+          background-color: $wl-blogger-color
+          &:hover
+            color: $wl-blogger-color
+
+
+    .plan-table-col-edit
+      background-color: $wl-editorial-color
+      .col-title
+        h3
+          color: $wl-editorial-color
+      .col-content
+        ul
+          padding-left: 0
+          li
+            text-align: center
+            width: 100%
+
+            i.icon-square::before
+              color: $wl-editorial-color
+
+        button
+          background-color: $wl-editorial-color
+          &:hover
+            color: $wl-editorial-color
+
+    .plan-table-col-ent
+      background-color: $wl-enterprise-color
+      .col-title
+        h3
+          color: $wl-enterprise-color
+
+      .col-content
+        ul
+          padding-left: 0
+          li
+            text-align: center
+            width: 100%
+
+            i.icon-hexagon-two::before
+              color: $wl-enterprise-color
+
+        button
+          background-color: $wl-enterprise-color
+          &:hover
+            color: $wl-enterprise-color

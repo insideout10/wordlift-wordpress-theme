@@ -1,0 +1,77 @@
+.wl-style-blogger
+  // background-color: $wl-blogger-color
+  h2
+    color: $wl-blogger-color
+
+  .box-text
+    background-color: $wl-blogger-color
+
+  .col-plan-list
+    &::before
+      content: " "
+      background-color: rgba($wl-blogger-color , .25)
+    ul.plan-list
+      li
+        // color: $wl-blogger-color
+        &::before
+          background:
+            image: url(./images/icon-blue.png)
+
+
+  a.btn
+    background-color: $wl-blogger-color
+    &:hover
+      color: $wl-blogger-color !important
+
+
+.wl-style-editorial
+  // background-color: $wl-editorial-color
+  h2
+    color: $wl-editorial-color
+
+  .box-text
+    background-color: $wl-editorial-color
+
+  .col-plan-list
+    &::before
+      content: " "
+      background-color: rgba($wl-editorial-color , .25)
+    ul.plan-list
+      li
+        // color: $wl-editorial-color
+        &::before
+          background:
+            image: url(./images/icon-yellow.png)
+
+
+  a.btn
+    background-color: $wl-editorial-color
+    &:hover
+      color: $wl-editorial-color !important
+
+
+.wl-style-enterprise
+  // background-color: $wl-enterprise-color
+  h2
+    color: $wl-enterprise-color
+
+  .box-text
+    background-color: $wl-enterprise-color
+
+  .col-plan-list
+    &::before
+      content: " "
+      background-color: rgba($wl-enterprise-color , .25)
+
+    ul.plan-list
+      li
+        // color: $wl-enterprise-color
+        &::before
+          background:
+            image: url(./images/icon-red.png)
+
+
+  a.btn
+    background-color: $wl-enterprise-color
+    &:hover
+      color: $wl-enterprise-color !important
