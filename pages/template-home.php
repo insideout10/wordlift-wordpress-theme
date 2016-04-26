@@ -21,9 +21,9 @@ get_header(); ?>
 		</video>
 
 		<video class="video-editorial" autoplay mute loop>
-			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_720.ogv" type="video/ogg">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_720.webm" type="video/webm">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_720.mp4" type="video/mp4">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial-team_color_720.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial-team_color_720.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial-team_color_720.mp4" type="video/mp4">
 		</video>
 
 		<video class="video-enterprise" autoplay mute loop>
