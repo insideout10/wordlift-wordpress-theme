@@ -4262,7 +4262,8 @@ aside.sidebar.fixed {
         color: #FFFFFF;
         font-weight: 400; }
         .plan-table-wrapper .plan-table .col-content ul li {
-          margin: 20px 0; }
+          margin: 20px 0;
+          text-transform: capitalize; }
       .plan-table-wrapper .plan-table .col-content button {
         position: absolute;
         bottom: 5px;
@@ -5438,7 +5439,8 @@ aside.sidebar.fixed {
                 margin: 10px 0;
                 font-weight: 500;
                 text-align: left;
-                line-height: 1.5; }
+                line-height: 1.5;
+                text-transform: capitalize; }
                 .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li::before,
                 .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li::before,
                 .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li::before {
@@ -5607,6 +5609,10 @@ aside.sidebar.fixed {
     -ms-flex-align: center;
     align-items: center;
     padding: 0 30px; }
+    main#main #home.top-section {
+      -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      transform: translateY(-20px); }
     main#main #home ul.icon-list {
       display: -webkit-flex;
       display: -moz-flex;
@@ -5724,11 +5730,12 @@ aside.sidebar.fixed {
         transform: scale(0.85);
         padding: 0; }
   #how-it-works .holder-center section.section-info .block-info ol.work-list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column; }
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    margin: auto; }
     #how-it-works .holder-center section.section-info .block-info ol.work-list li {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -5824,8 +5831,8 @@ aside.sidebar.fixed {
         .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .box-text p,
         .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .box-text p {
           padding: auto 10px;
-          max-width: 290px;
-          font-size: 20spx;
+          max-width: 280px;
+          font-size: 18px;
           line-height: 1.8; }
       .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list .col-details,
       .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list .col-details,
@@ -5844,55 +5851,29 @@ aside.sidebar.fixed {
           .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list .col-details .col-details-row span,
           .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list .col-details .col-details-row span {
             font-size: 18px; }
-      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li,
-      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li,
-      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li {
-        font-size: 16px;
-        font-weight: 500; }
-        .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li::before,
-        .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li::before,
-        .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li::before {
-          position: absolute;
-          left: -25px;
-          top: 7px;
-          content: " ";
-          background-size: cover;
-          width: 10px;
-          height: 10px;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          padding: 0;
-          margin: 0; }
+      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list,
+      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list,
+      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list {
+        padding-right: 5px; }
+        .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li,
+        .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li,
+        .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li {
+          font-size: 16px;
+          font-weight: 500; }
+          .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li::before,
+          .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li::before,
+          .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li::before {
+            top: 7px; }
       .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .btn-hold,
       .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .btn-hold,
       .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .btn-hold {
-        z-index: 20;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin: auto; }
+        width: 300px; }
         .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .btn-hold a.btn,
         .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .btn-hold a.btn,
         .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .btn-hold a.btn {
-          width: 290px;
+          margin-bottom: 10px;
+          margin-top: 0;
+          min-width: 250px;
           color: #FFFFFF; }
           .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .btn-hold a.btn:hover,
           .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .btn-hold a.btn:hover,
@@ -5991,4 +5972,6 @@ aside.sidebar.fixed {
       .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise a.btn {
         background-color: #FF2222; }
         .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise a.btn:hover {
-          color: #FF2222 !important; } }
+          color: #FF2222 !important; }
+  .video-global-wrap video {
+    display: none; } }

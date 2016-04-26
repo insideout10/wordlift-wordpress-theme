@@ -11,7 +11,9 @@
       align-items: center
       padding: 0 30px
 
-      //TODO eliminare colonna
+      &.top-section
+        transform: translateY(-20px)
+
       ul.icon-list
         display: -webkit-flex
         display: -moz-flex
@@ -90,7 +92,8 @@
           .mobile-visible
             .preview-list
           ol.work-list
-            flex-direction: column
+            flex-direction: column !important
+            margin: auto
             li
               flex-direction: column
               ul
@@ -168,8 +171,8 @@
 
             p
               padding: auto 10px
-              max-width: 290px
-              font-size: 20spx
+              max-width: 280px
+              font-size: 18px
               line-height: 1.8
 
           .col-plan-list
@@ -187,36 +190,20 @@
                   font-size: 18px
 
             ul.plan-list
+              padding-right: 5px
 
               li
                 font-size: 16px
                 font-weight: 500
                 &::before
-                  position: absolute
-                  left: -25px
                   top: 7px
-                  content: " "
-                  background:
-                    size: cover
-                  width: 10px
-                  height: 10px
-                  box-sizing: border-box
-                  padding: 0
-                  margin: 0
 
           .btn-hold
-            z-index: 20
-            display: -webkit-flex
-            display: -moz-flex
-            display: -ms-flex
-            display: -o-flex
-            display: flex
-            flex-direction: column
-            justify-content: center
-            align-items: center
-            margin: auto
+            width: 300px
             a.btn
-              width: 290px
+              margin-bottom: 10px
+              margin-top: 0
+              min-width: 250px
               color: $wl-white-color
               &:hover
                 background-color: $wl-white-color
@@ -323,3 +310,8 @@
           background-color: $wl-enterprise-color
           &:hover
             color: $wl-enterprise-color !important
+
+  // video background
+  .video-global-wrap
+    video
+      display: none

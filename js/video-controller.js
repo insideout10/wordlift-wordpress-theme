@@ -9,11 +9,11 @@ jQuery(document).ready(function() {
         jQuery('body').animate(
           {scrollTop: jQuery('#anchor-section-blogger').offset().top}, "fast"
         );
-        jQuery('.video-blogger').css('opacity', '1');
-        jQuery('.video-about').css('opacity', '0');
+        jQuery('.video-blogger').css({'opacity' : '1'});
+        jQuery('.video-about').css({'opacity' : '0'});
       } else {
-        jQuery('.video-blogger').css('opacity', '0');
-        jQuery('.video-about').css('opacity', '1');
+        jQuery('.video-blogger').css({'opacity': '0'});
+        jQuery('.video-about').css({'opacity': '1'});
       }
     },
     offset: '95%'
@@ -29,11 +29,11 @@ jQuery(document).ready(function() {
         jQuery('body').animate(
           {scrollTop: jQuery('#anchor-section-editorial-team').offset().top}, "fast"
         );
-        jQuery('.video-editorial').css('opacity', '1');
-        jQuery('.video-blogger').css('opacity', '0');
+        jQuery('.video-editorial').css({'opacity': '1'});
+        jQuery('.video-blogger').css({'opacity': '0'});
       } else {
-        jQuery('.video-editorial').css('opacity', '0');
-        jQuery('.video-blogger').css('opacity', '1');
+        jQuery('.video-editorial').css({'opacity': '0'});
+        jQuery('.video-blogger').css({'opacity': '1'});
       }
     },
     offset: '95%'
@@ -49,11 +49,11 @@ jQuery(document).ready(function() {
         jQuery('body').animate(
           {scrollTop: jQuery('#anchor-section-enterprise').offset().top}, "fast"
         );
-        jQuery('.video-enterprise').css('opacity', '1');
-        jQuery('.video-editorial').css('opacity', '0');
+        jQuery('.video-enterprise').css({'opacity': '1'});
+        jQuery('.video-editorial').css({'opacity': '0'});
       } else {
-        jQuery('.video-enterprise').css('opacity', '0');
-        jQuery('.video-editorial').css('opacity', '1');
+        jQuery('.video-enterprise').css({'opacity': '0'});
+        jQuery('.video-editorial').css({'opacity': '1'});
       }
     },
     offset: '95%'
@@ -69,11 +69,11 @@ jQuery(document).ready(function() {
         jQuery('body').animate(
           {scrollTop: jQuery('#plan-and-price').offset().top}, "fast"
         );
-        jQuery('.video-about').css('opacity', '1');
-        jQuery('.video-enterprise').css('opacity', '0');
+        jQuery('.video-about').css({'opacity': '1'});
+        jQuery('.video-enterprise').css({'opacity': '0'});
       } else {
-        jQuery('.video-about').css('opacity', '0');
-        jQuery('.video-enterprise').css('opacity', '1');
+        jQuery('.video-about').css({'opacity': '0'});
+        jQuery('.video-enterprise').css({'opacity': '1'});
       }
     },
     offset: '95%'

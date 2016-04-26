@@ -352,10 +352,9 @@ get_header(); ?>
 																  <li>Automatically add schema.org markup, allowing search engines to properly index and display your pages</li>
 																  <li>Engage readers with relevant content recommendations</li>
 																  <li>Publish metadata to share, sell and distribute content</li>
-																  <li>NO CONTRACT</li>
-																  <li>14 LANGUAGES supported</li>
-																  <li>UNLIMITED dataset storage</li>
-																  <li>UNLIMITED processing capacity</li>
+																  <li>14 languages supported</li>
+																  <li>unlimited dataset storage</li>
+																  <li>unlimited processing capacity</li>
 																  <li>AWESOME SUPPORT: tech support and help desk</li>
 																  <li>Semantic ANALYTICS and dynamic PUBLISHING</li>
 																  <li>OPEN SOURCE NLP and SEMANTIC processing</li>
