@@ -525,7 +525,7 @@ html {
 body {
 	color: $wl-dark-bg-color;
 	background: $wl-dark-bg-color;
-	font: 17px / 1.23529 "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 17px / 1.23529 $wl-font-two;
 	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -639,7 +639,7 @@ textarea {
 	border: 0;
 	background: #e2e2e2;
 	display: block;
-	font: 600 17px/19px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 17px/19px $wl-font-one;
 	outline: none;
 }
 
@@ -790,7 +790,7 @@ input[type="submit"] {
 	border: 0;
 	color: #e2e2e2;
 	padding: 8px 20px;
-	font: 600 17px/21px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 17px/21px $wl-font-one;
 	text-transform: uppercase;
 	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
@@ -869,7 +869,7 @@ input[type="submit"] {
 	border: 0;
 	color: #e2e2e2;
 	padding: 8px 20px;
-	font: 600 17px/21px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 17px/21px $wl-font-one;
 	text-transform: uppercase;
 	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
@@ -895,7 +895,7 @@ input[type="submit"] {
 	border: 0;
 	color: #e2e2e2;
 	padding: 8px 20px;
-	font: 600 17px/21px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 17px/21px $wl-font-one;
 	text-transform: uppercase;
 	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
@@ -989,7 +989,7 @@ h6,
 h1,
 .h1 {
 	font-size: 90px;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 	font-weight: 400;
 	line-height: 90px;
 }
@@ -997,7 +997,7 @@ h1,
 h2,
 .h2 {
 	font-size: 45px;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -1035,206 +1035,6 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	color: $wl-dark-bg-color;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-hairline-webfont.eot");
-	src: url("fonts/lato-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-hairline-webfont.woff2") format("woff2"), url("fonts/lato-hairline-webfont.woff") format("woff"), url("fonts/lato-hairline-webfont.ttf") format("truetype"), url("fonts/lato-hairline-webfont.svg#latohairline") format("svg");
-	font-weight: 100;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-hairlineitalic-webfont.eot");
-	src: url("fonts/lato-hairlineitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-hairlineitalic-webfont.woff2") format("woff2"), url("fonts/lato-hairlineitalic-webfont.woff") format("woff"), url("fonts/lato-hairlineitalic-webfont.ttf") format("truetype"), url("fonts/lato-hairlineitalic-webfont.svg#latohairline_italic") format("svg");
-	font-weight: 100;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-thin-webfont.eot");
-	src: url("fonts/lato-thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-thin-webfont.woff2") format("woff2"), url("fonts/lato-thin-webfont.woff") format("woff"), url("fonts/lato-thin-webfont.ttf") format("truetype"), url("fonts/lato-thin-webfont.svg#latothin") format("svg");
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-thinitalic-webfont.eot");
-	src: url("fonts/lato-thinitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-thinitalic-webfont.woff2") format("woff2"), url("fonts/lato-thinitalic-webfont.woff") format("woff"), url("fonts/lato-thinitalic-webfont.ttf") format("truetype"), url("fonts/lato-thinitalic-webfont.svg#latothin_italic") format("svg");
-	font-weight: 200;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-light-webfont.eot");
-	src: url("fonts/lato-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-light-webfont.woff2") format("woff2"), url("fonts/lato-light-webfont.woff") format("woff"), url("fonts/lato-light-webfont.ttf") format("truetype"), url("fonts/lato-light-webfont.svg#latolight") format("svg");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-lightitalic-webfont.eot");
-	src: url("fonts/lato-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-lightitalic-webfont.woff2") format("woff2"), url("fonts/lato-lightitalic-webfont.woff") format("woff"), url("fonts/lato-lightitalic-webfont.ttf") format("truetype"), url("fonts/lato-lightitalic-webfont.svg#latolight_italic") format("svg");
-	font-weight: 300;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-regular-webfont.eot");
-	src: url("fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-regular-webfont.woff2") format("woff2"), url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.ttf") format("truetype"), url("fonts/lato-regular-webfont.svg#latoregular") format("svg");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-italic-webfont.eot");
-	src: url("fonts/lato-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-italic-webfont.woff2") format("woff2"), url("fonts/lato-italic-webfont.woff") format("woff"), url("fonts/lato-italic-webfont.ttf") format("truetype"), url("fonts/lato-italic-webfont.svg#latoitalic") format("svg");
-	font-weight: 400;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-medium-webfont.eot");
-	src: url("fonts/lato-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-medium-webfont.woff2") format("woff2"), url("fonts/lato-medium-webfont.woff") format("woff"), url("fonts/lato-medium-webfont.ttf") format("truetype"), url("fonts/lato-medium-webfont.svg#latomedium") format("svg");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-mediumitalic-webfont.eot");
-	src: url("fonts/lato-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-mediumitalic-webfont.woff2") format("woff2"), url("fonts/lato-mediumitalic-webfont.woff") format("woff"), url("fonts/lato-mediumitalic-webfont.ttf") format("truetype"), url("fonts/lato-mediumitalic-webfont.svg#latomedium_italic") format("svg");
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-semibold-webfont.eot");
-	src: url("fonts/lato-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-semibold-webfont.woff2") format("woff2"), url("fonts/lato-semibold-webfont.woff") format("woff"), url("fonts/lato-semibold-webfont.ttf") format("truetype"), url("fonts/lato-semibold-webfont.svg#latosemibold") format("svg");
-	font-weight: 600;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-semibolditalic-webfont.eot");
-	src: url("fonts/lato-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-semibolditalic-webfont.woff2") format("woff2"), url("fonts/lato-semibolditalic-webfont.woff") format("woff"), url("fonts/lato-semibolditalic-webfont.ttf") format("truetype"), url("fonts/lato-semibolditalic-webfont.svg#latosemibold_italic") format("svg");
-	font-weight: 600;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-bold-webfont.eot");
-	src: url("fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-bold-webfont.woff2") format("woff2"), url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.ttf") format("truetype"), url("fonts/lato-bold-webfont.svg#latobold") format("svg");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-bolditalic-webfont.eot");
-	src: url("fonts/lato-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-bolditalic-webfont.woff2") format("woff2"), url("fonts/lato-bolditalic-webfont.woff") format("woff"), url("fonts/lato-bolditalic-webfont.ttf") format("truetype"), url("fonts/lato-bolditalic-webfont.svg#latobold_italic") format("svg");
-	font-weight: 700;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-heavy-webfont.eot");
-	src: url("fonts/lato-heavy-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-heavy-webfont.woff2") format("woff2"), url("fonts/lato-heavy-webfont.woff") format("woff"), url("fonts/lato-heavy-webfont.ttf") format("truetype"), url("fonts/lato-heavy-webfont.svg#latoheavy") format("svg");
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-heavyitalic-webfont.eot");
-	src: url("fonts/lato-heavyitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-heavyitalic-webfont.woff2") format("woff2"), url("fonts/lato-heavyitalic-webfont.woff") format("woff"), url("fonts/lato-heavyitalic-webfont.ttf") format("truetype"), url("fonts/lato-heavyitalic-webfont.svg#latoheavy_italic") format("svg");
-	font-weight: 800;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-black-webfont.eot");
-	src: url("fonts/lato-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-black-webfont.woff2") format("woff2"), url("fonts/lato-black-webfont.woff") format("woff"), url("fonts/lato-black-webfont.ttf") format("truetype"), url("fonts/lato-black-webfont.svg#latoblack") format("svg");
-	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "lato";
-	src: url("fonts/lato-blackitalic-webfont.eot");
-	src: url("fonts/lato-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-blackitalic-webfont.woff2") format("woff2"), url("fonts/lato-blackitalic-webfont.woff") format("woff"), url("fonts/lato-blackitalic-webfont.ttf") format("truetype"), url("fonts/lato-blackitalic-webfont.svg#latoblack_italic") format("svg");
-	font-weight: 900;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "NeutraTextTF";
-	src: url("fonts/NeutraTextTFLight.eot");
-	src: url("fonts/NeutraTextTFLight.eot") format("embedded-opentype"), url("fonts/NeutraTextTFLight.woff2") format("woff2"), url("fonts/NeutraTextTFLight.woff") format("woff"), url("fonts/NeutraTextTFLight.ttf") format("truetype"), url("fonts/NeutraTextTFLight.svg#NeutraTextTFLight") format("svg");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "NeutraTextTF";
-	src: url("fonts/NeutraTextTFBook.eot");
-	src: url("fonts/NeutraTextTFBook.eot") format("embedded-opentype"), url("fonts/NeutraTextTFBook.woff2") format("woff2"), url("fonts/NeutraTextTFBook.woff") format("woff"), url("fonts/NeutraTextTFBook.ttf") format("truetype"), url("fonts/NeutraTextTFBook.svg#NeutraTextTFBook") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "NeutraTextTF";
-	src: url("fonts/NeutraTextTFDemi.eot");
-	src: url("fonts/NeutraTextTFDemi.eot") format("embedded-opentype"), url("fonts/NeutraTextTFDemi.woff2") format("woff2"), url("fonts/NeutraTextTFDemi.woff") format("woff"), url("fonts/NeutraTextTFDemi.ttf") format("truetype"), url("fonts/NeutraTextTFDemi.svg#NeutraTextTFDemi") format("svg");
-	font-weight: 600;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "NeutraTextTF";
-	src: url("fonts/NeutraTextTFBold.eot");
-	src: url("fonts/NeutraTextTFBold.eot") format("embedded-opentype"), url("fonts/NeutraTextTFBold.woff2") format("woff2"), url("fonts/NeutraTextTFBold.woff") format("woff"), url("fonts/NeutraTextTFBold.ttf") format("truetype"), url("fonts/NeutraTextTFBold.svg#NeutraTextTFBold") format("svg");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "NeutraTextTFAlt";
-	src: url("fonts/NeutraTextTFLightAlt.eot");
-	src: url("fonts/NeutraTextTFLightAlt.eot") format("embedded-opentype"), url("fonts/NeutraTextTFLightAlt.woff2") format("woff2"), url("fonts/NeutraTextTFLightAlt.woff") format("woff"), url("fonts/NeutraTextTFLightAlt.ttf") format("truetype"), url("fonts/NeutraTextTFLightAlt.svg#NeutraTextTFLightAlt") format("svg");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "NeutraTextTFAlt";
-	src: url("fonts/NeutraTextTFBoldAlt.eot");
-	src: url("fonts/NeutraTextTFBoldAlt.eot") format("embedded-opentype"), url("fonts/NeutraTextTFBoldAlt.woff2") format("woff2"), url("fonts/NeutraTextTFBoldAlt.woff") format("woff"), url("fonts/NeutraTextTFBoldAlt.ttf") format("truetype"), url("fonts/NeutraTextTFBoldAlt.svg#NeutraTextTFBoldAlt") format("svg");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "icomoon";
-	src: url("fonts/icomoon.eot?3v3ovv");
-	src: url("fonts/icomoon.eot?3v3ovv#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?3v3ovv") format("truetype"), url("fonts/icomoon.woff?3v3ovv") format("woff"), url("fonts/icomoon.svg?3v3ovv#icomoon") format("svg");
-	font-weight: normal;
-	font-style: normal;
 }
 
 [class^="icon-"],
@@ -1305,7 +1105,7 @@ a:focus {
 	left: 0;
 	right: 0;
 	padding: 50px 0 28px;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 	background: $wl-white-color;
 	z-index: 200;
 }
@@ -1514,7 +1314,7 @@ iframe {
 .info-text {
 	font-size: 45px;
 	line-height: 54px;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 	padding: 150px 0 82px;
 }
 
@@ -1545,7 +1345,7 @@ iframe {
 	padding: 0 8%;
 	font-size: 20px;
 	line-height: 24px;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 	text-transform: uppercase;
 	letter-spacing: 0;
 }
@@ -1737,7 +1537,7 @@ iframe {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #939393;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 	display: block;
 	padding: 0 0 8px;
 }
@@ -1780,7 +1580,7 @@ iframe {
 	font-size: 26px;
 	font-weight: 700;
 	padding: 0 11px 0 0 !important;
-	font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-one;
 }
 
 .share-social-network li:after {
@@ -1867,11 +1667,11 @@ iframe {
 }
 
 .head h1 {
-	font: 400 70px/74px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 400 70px/74px $wl-font-one;
 }
 
 .head span {
-	font: 45px/47px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 45px/47px $wl-font-one;
 	display: block;
 }
 
@@ -1945,7 +1745,7 @@ iframe {
 
 .plan-holder .box h2 {
 	color: $wl-blogger-color;
-	font: 600 19px/20px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 19px/20px $wl-font-one;
 	margin: 0 0 47px 61px;
 }
 
@@ -2009,7 +1809,7 @@ iframe {
 .wpcf7-form .check-holder label,
 .form .check-holder .wpcf7-list-item-label,
 .form .check-holder label {
-	font: 300 11px/14px "NeutraTextTFAlt", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 11px/14px $wl-font-one;
 }
 
 .wpcf7-form .select-wrap,
@@ -2040,7 +1840,7 @@ iframe {
 	border: 0;
 	background: #e2e2e2;
 	display: block;
-	font: 600 17px/19px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 17px/19px $wl-font-one;
 	color: #999;
 }
 
@@ -2054,7 +1854,7 @@ iframe {
 .wpcf7-form .input-box label,
 .form .input-box label {
 	float: left;
-	font: 600 17px/19px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 17px/19px $wl-font-one;
 	color: #999;
 	margin: 10px 0 0;
 }
@@ -2105,7 +1905,7 @@ iframe {
 	margin: 0 0 60px;
 	color: #e2e2e2;
 	padding: 8px 20px;
-	font: 600 19px/21px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 19px/21px $wl-font-one;
 	text-transform: uppercase;
 	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
@@ -2191,7 +1991,7 @@ iframe {
 
 .work-list.full-list ul .ico {
 	font-size: 22px;
-	font-family: "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: $wl-font-two;
 	line-height: 26px;
 	top: 2px;
 }
@@ -2220,7 +2020,7 @@ iframe {
 	padding: 6px 10px;
 	width: 25px;
 	height: 25px;
-	font: 700 18px/18px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 18px/18px $wl-font-one;
 	border-radius: 50%;
 	content: counter(item, upper-latin);
 	counter-increment: item;
@@ -2281,7 +2081,7 @@ iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
-	font: 700 18px/20px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 18px/20px $wl-font-one;
 	width: 30px;
 	overflow: hidden;
 }
@@ -2363,7 +2163,7 @@ iframe {
 }
 
 .section-info.style-works h2 {
-	font: 700 23px/25px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 23px/25px $wl-font-one;
 	padding: 0 0 0 50px;
 	margin: 0 0 30px;
 }
@@ -2395,7 +2195,7 @@ iframe {
 
 .section-info.style-privacy footer {
 	text-align: center;
-	font: 300 15px/19px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 15px/19px $wl-font-one;
 	padding: 28px 0 0;
 }
 
@@ -2415,7 +2215,7 @@ iframe {
 .section-info .note {
 	display: block;
 	margin: 0 auto;
-	font: 300 12px/18px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 12px/18px $wl-font-one;
 	max-width: 300px;
 	text-align: center;
 	padding: 28px 0 0;
@@ -2436,7 +2236,7 @@ iframe {
 
 .section-info .block-info.form-box footer {
 	text-align: center;
-	font: 300 15px/19px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 15px/19px $wl-font-one;
 }
 
 .section-info .block-info.form-box footer p {
@@ -2501,7 +2301,7 @@ iframe {
 	-ms-flex-align: center;
 	align-items: center;
 	color: $wl-enterprise-color;
-	font: 700 58px/62px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 58px/62px $wl-font-one;
 	padding: 0 15px;
 }
 
@@ -2520,7 +2320,7 @@ iframe {
 }
 
 .error-block .small {
-	font: 500 21px/24px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 21px/24px $wl-font-two;
 	color: #23091d;
 	text-transform: uppercase;
 }
@@ -2558,7 +2358,7 @@ iframe {
 	display: inline-block;
 	vertical-align: top;
 	letter-spacing: 0;
-	font: 600 25px/32px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 600 25px/32px $wl-font-two;
 	padding: 18px 20px;
 	text-transform: uppercase;
 	color: $wl-white-color;
@@ -2641,7 +2441,7 @@ iframe {
 	color: $wl-white-color;
 	max-width: 795px;
 	padding: 44px 40px 134px;
-	font: 500 25px/32px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 500 25px/32px $wl-font-two;
 }
 
 .section-info .block-info p {
@@ -2694,7 +2494,7 @@ iframe {
 }
 
 .section-info .title-section {
-	font: 700 48px/58px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 48px/58px $wl-font-one;
 	color: $wl-enterprise-color;
 	margin: 0 0 48px;
 }
@@ -2794,7 +2594,7 @@ iframe {
 }
 
 .custom-block ul .txt {
-	font: 14px/22px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 14px/22px $wl-font-one;
 	display: inline-block;
 	vertical-align: middle;
 	letter-spacing: 1px;
@@ -2818,7 +2618,7 @@ iframe {
 	overflow: hidden;
 	padding: 20px 90px 10px 135px;
 	color: $wl-gray-color;
-	font: 700 17px/21px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 17px/21px $wl-font-two;
 }
 
 .plan-two-columns .col .box-text p {
@@ -2865,7 +2665,7 @@ iframe {
 }
 
 .plan-two-columns .plan-list {
-	font: 700 17px/21px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 17px/21px $wl-font-two;
 	padding: 53px 0 28px;
 	color: $wl-gray-color;
 }
@@ -2924,7 +2724,7 @@ iframe {
 
 #footer .nav-footer {
 	text-transform: uppercase;
-	font: 700 11px/14px "NeutraTextTFAlt", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 11px/14px $wl-font-one;
 }
 
 #footer .nav-footer li {
@@ -2949,7 +2749,7 @@ iframe {
 
 #footer .custom {
 	text-transform: uppercase;
-	font: 10px/10px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 10px/10px $wl-font-one;
 }
 
 #footer .custom li {
@@ -2980,7 +2780,7 @@ iframe {
 }
 
 #footer .contact {
-	font: 12px/12px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 12px/12px $wl-font-one;
 }
 
 #footer .contact li {
@@ -2999,7 +2799,7 @@ iframe {
 	display: block;
 	margin: 41px 0 9px;
 	text-transform: uppercase;
-	font: 700 11px/12px "NeutraTextTFAlt", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 11px/12px $wl-font-one;
 	color: #b5b4b4;
 }
 
@@ -3036,7 +2836,7 @@ iframe {
 	vertical-align: middle;
 	letter-spacing: 0;
 	padding: 10px 14px;
-	font: 300 14px/15px "NeutraTextTFAlt", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 300 14px/15px $wl-font-one;
 	width: 71.5%;
 	background: #c6c5c6;
 	color: $wl-black-color;
@@ -3079,7 +2879,7 @@ iframe {
 	vertical-align: middle;
 	letter-spacing: 0;
 	margin: 0 0 0 10px;
-	font: 700 17px/17px "NeutraTextTFAlt", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 17px/17px $wl-font-one;
 	text-transform: uppercase;
 	outline: none;
 	box-shadow: none;
@@ -3188,7 +2988,7 @@ iframe {
 	overflow: hidden;
 	cursor: default;
 	display: block;
-	font: 700 13px/26px "NeutraTextTFAlt", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 700 13px/26px $wl-font-one;
 	margin: 4px 18px 0 5px;
 	color: #bcbcbc;
 }
@@ -3769,7 +3569,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 .accordion .opener {
 	display: block;
 	text-transform: uppercase;
-	font: 25px/28px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 25px/28px $wl-font-one;
 	color: $wl-dark-bg-color;
 	padding: 19px 33px;
 }
@@ -3799,7 +3599,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	font: 25px/28px "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font: 25px/28px $wl-font-one;
 	text-transform: uppercase;
 }
 

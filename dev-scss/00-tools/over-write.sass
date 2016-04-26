@@ -23,7 +23,13 @@ li#section-c
 
   // CENTERING LETTERS IN RED BULLETS
   &::before
-    padding: 6px 10px !important
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    justify-content: center
+    align-items: center
 
   // STYLING SUBSECTION BULLETS
 .work-list
@@ -136,6 +142,7 @@ li#section-c
       display: flex
       flex-direction: column
       span
+
       .section-content-wrap
         display: -webkit-flex
         display: -moz-flex
@@ -205,7 +212,7 @@ li#section-c
       .head
         h1
           font-weight: 700
-          font-family: "NeutraTextTF", "Arial", "Helvetica Neue", "Helvetica", sans-serif
+          font-family: $wl-font-one
           color: $wl-white-color
 
 
