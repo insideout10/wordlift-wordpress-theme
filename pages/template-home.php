@@ -5,25 +5,25 @@ Template Name: Home Template
 get_header(); ?>
 
 	<div class="video-global-wrap">
-		<video class="video-about" autoplay mute loop>
+		<video class="video-about this-section" autoplay mute loop>
 			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.ogv" type="video/ogg">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.webm" type="video/webm">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.mp4" type="video/mp4">
 		</video>
 
-		<video class="video-blogger" autoplay mute loop>
+		<video class="video-blogger not-this-section" autoplay mute loop>
 			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.ogv" type="video/ogg">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.webm" type="video/webm">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.mp4" type="video/mp4">
 		</video>
 
-		<video class="video-editorial" autoplay mute loop>
+		<video class="video-editorial not-this-section" autoplay mute loop>
 			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.ogv" type="video/ogg">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.webm" type="video/webm">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.mp4" type="video/mp4">
 		</video>
 
-		<video class="video-enterprise" autoplay mute loop>
+		<video class="video-enterprise not-this-section" autoplay mute loop>
 			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.ogv" type="video/ogg">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.webm" type="video/webm">
 			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.mp4" type="video/mp4">
@@ -255,7 +255,7 @@ get_header(); ?>
                     $about_plans_links = get_field( 'about_plans_links', $plan->ID );
                 ?>
 
-                <div class="holder-center">
+                <div id="anchor-section-<?php echo strtolower( str_replace( ' ', '-', get_the_title( $plan->ID ) ) ); ?>" class="holder-center">
 
                     <section class="section-info <?php if( $parent_id ): ?>style-two<?php endif; ?>">
 

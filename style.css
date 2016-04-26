@@ -4665,6 +4665,10 @@ aside.sidebar.fixed {
     display: flex;
     min-height: 100vh;
     min-width: 100vw; }
+    .video-global-wrap video.this-section {
+      opacity: 1; }
+    .video-global-wrap video.not-this-section {
+      opacity: 0; }
 
 .holder-center {
   padding: 60px 0; }
