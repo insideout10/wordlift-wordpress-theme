@@ -4196,6 +4196,11 @@ aside.sidebar.fixed {
     #anchor-section-enterprise .btn.learn-more:hover {
       color: #FF2222; }
 
+#home.top-section {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px); }
+
 .plan-table-wrapper {
   display: -webkit-flex;
   display: -moz-flex;
