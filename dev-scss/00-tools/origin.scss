@@ -1919,9 +1919,9 @@ iframe {
 	background: $wl-editorial-color;
 }
 
-.plan-holder .box.yellow-style .btn:hover {
-	background: $wl-white-color;
-}
+// .plan-holder .box.yellow-style .btn:hover {
+// 	background: $wl-white-color;
+// }
 
 .plan-holder .box.red-style ul li:after {
 	background: $wl-enterprise-color;
@@ -1939,9 +1939,9 @@ iframe {
 	background: $wl-enterprise-color;
 }
 
-.plan-holder .box.red-style .btn:hover {
-	background: $wl-white-color;
-}
+// .plan-holder .box.red-style .btn:hover {
+// 	background: $wl-white-color;
+// }
 
 .plan-holder .box h2 {
 	color: $wl-blogger-color;
@@ -2562,16 +2562,16 @@ iframe {
 	padding: 18px 20px;
 	text-transform: uppercase;
 	color: $wl-white-color;
-	background: $wl-blogger-color;
+	// background: $wl-blogger-color;
 	min-width: 260px;
-	-webkit-transition: background .3s , color .3s;
-	transition: background .3s , color .3s;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
 }
 
-.btn:hover {
-	color: $wl-blogger-color;
-	background: $wl-white-color;
-}
+// .btn:hover {
+// 	color: $wl-blogger-color;
+// 	background: $wl-white-color;
+// }
 
 .btn.yellow-style {
 	background: $wl-editorial-color;

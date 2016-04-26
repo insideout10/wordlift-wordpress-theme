@@ -195,9 +195,10 @@ function initAnchors() {
 
 /*
  * jQuery video background plugin
+ * off at the moment rename the function as VideoBG tu turn it on
 */
 ;(function($) {
-	function VideoBG(options) {
+	function VideoBGOFF(options) {
 		this.options = $.extend({
 			autoPlay: true,
 			activeClass: 'video-is-playing'

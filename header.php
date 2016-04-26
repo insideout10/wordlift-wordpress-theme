@@ -3,8 +3,6 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="<?php echo get_template_directory_uri(); ?>/vendors/jquery/dist/jquery.js" charset="utf-8"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/vendors/fullpage.js/jquery.fullPage.js" charset="utf-8"></script>
 		<script type="text/javascript">
 			var pathInfo = {
 				base: '<?php echo get_template_directory_uri(); ?>/',
@@ -14,6 +12,8 @@
 			}
 		</script>
 		<?php wp_head(); ?>
+		<script src="<?php echo get_template_directory_uri(); ?>/vendors/waypoints/lib/noframework.waypoints.js" charset="utf-8"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/video-controller.js" charset="utf-8"></script>
 	</head>
 	<body <?php body_class(); ?> <?php if( is_404() ): ?>style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/bg-page.jpg);"<?php endif; ?>>
 		<?php if( !is_404() ): ?>
