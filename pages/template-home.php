@@ -5,28 +5,31 @@ Template Name: Home Template
 get_header(); ?>
 
 	<div class="video-global-wrap">
+		<div class="video-global-filter">
+			<!-- DISPLAYS A FILTER OVER THE VIDEOS -->
+		</div>
 		<video class="video-about this-section" autoplay mute loop>
-			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.ogv" type="video/ogg">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.webm" type="video/webm">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_1080.mp4" type="video/mp4">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_720.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_720.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/about_color_720.mp4" type="video/mp4">
 		</video>
 
 		<video class="video-blogger not-this-section" autoplay mute loop>
-			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.ogv" type="video/ogg">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.webm" type="video/webm">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_1080.mp4" type="video/mp4">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_720.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_720.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/blogger_color_720.mp4" type="video/mp4">
 		</video>
 
 		<video class="video-editorial not-this-section" autoplay mute loop>
-			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.ogv" type="video/ogg">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.webm" type="video/webm">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_1080.mp4" type="video/mp4">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_720.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_720.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/editorial_color_720.mp4" type="video/mp4">
 		</video>
 
 		<video class="video-enterprise not-this-section" autoplay mute loop>
-			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.ogv" type="video/ogg">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.webm" type="video/webm">
-			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_1080.mp4" type="video/mp4">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_720.ogv" type="video/ogg">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_720.webm" type="video/webm">
+			<source src="<?php echo get_template_directory_uri(); ?>/media/enterprise_color_720.mp4" type="video/mp4">
 		</video>
 	</div>
 

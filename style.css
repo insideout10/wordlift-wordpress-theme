@@ -4649,6 +4649,19 @@ aside.sidebar.fixed {
   left: 0;
   right: 0;
   background-color: #25051e; }
+  .video-global-wrap .video-global-filter {
+    background-color: #25051e;
+    mix-blend-mode: overlay;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 1; }
   .video-global-wrap video {
     position: absolute;
     top: 50%;
