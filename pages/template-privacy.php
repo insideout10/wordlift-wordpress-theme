@@ -4,6 +4,17 @@ Template Name: Privacy Template
 */
 get_header(); ?>
 
+  <div class="video-plan-wrap">
+    <div class="video-plan-filter">
+      <!-- DISPLAYS A FILTER OVER THE VIDEOS -->
+    </div>
+    <video class="video-about" autoplay mute loop>
+      <source src="<?php echo get_template_directory_uri(); ?>/media/about_color_720.ogv" type="video/ogg">
+      <source src="<?php echo get_template_directory_uri(); ?>/media/about_color_720.webm" type="video/webm">
+      <source src="<?php echo get_template_directory_uri(); ?>/media/about_color_720.mp4" type="video/mp4">
+    </video>
+  </div>
+
     <div class="holder-center">
         <section class="section-info style-privacy">
             <div class="block-info">

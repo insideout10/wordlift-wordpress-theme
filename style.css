@@ -1,142 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,100italic,300italic,400italic,700italic,900,900italic);
 @font-face {
-  font-family: "lato";
-  src: url("fonts/lato-hairline-webfont.eot");
-  src: url("fonts/lato-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-hairline-webfont.woff2") format("woff2"), url("fonts/lato-hairline-webfont.woff") format("woff"), url("fonts/lato-hairline-webfont.ttf") format("truetype"), url("fonts/lato-hairline-webfont.svg#latohairline") format("svg");
-  font-weight: 100;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-hairlineitalic-webfont.eot");
-  src: url("fonts/lato-hairlineitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-hairlineitalic-webfont.woff2") format("woff2"), url("fonts/lato-hairlineitalic-webfont.woff") format("woff"), url("fonts/lato-hairlineitalic-webfont.ttf") format("truetype"), url("fonts/lato-hairlineitalic-webfont.svg#latohairline_italic") format("svg");
-  font-weight: 100;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-thin-webfont.eot");
-  src: url("fonts/lato-thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-thin-webfont.woff2") format("woff2"), url("fonts/lato-thin-webfont.woff") format("woff"), url("fonts/lato-thin-webfont.ttf") format("truetype"), url("fonts/lato-thin-webfont.svg#latothin") format("svg");
-  font-weight: 200;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-thinitalic-webfont.eot");
-  src: url("fonts/lato-thinitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-thinitalic-webfont.woff2") format("woff2"), url("fonts/lato-thinitalic-webfont.woff") format("woff"), url("fonts/lato-thinitalic-webfont.ttf") format("truetype"), url("fonts/lato-thinitalic-webfont.svg#latothin_italic") format("svg");
-  font-weight: 200;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-light-webfont.eot");
-  src: url("fonts/lato-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-light-webfont.woff2") format("woff2"), url("fonts/lato-light-webfont.woff") format("woff"), url("fonts/lato-light-webfont.ttf") format("truetype"), url("fonts/lato-light-webfont.svg#latolight") format("svg");
+  font-family: 'Gotham';
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+  src: local("Gotham-light"), url(./fonts/gothamlight.woff2) format("woff2"); }
 
 @font-face {
-  font-family: "lato";
-  src: url("fonts/lato-lightitalic-webfont.eot");
-  src: url("fonts/lato-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-lightitalic-webfont.woff2") format("woff2"), url("fonts/lato-lightitalic-webfont.woff") format("woff"), url("fonts/lato-lightitalic-webfont.ttf") format("truetype"), url("fonts/lato-lightitalic-webfont.svg#latolight_italic") format("svg");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-regular-webfont.eot");
-  src: url("fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-regular-webfont.woff2") format("woff2"), url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.ttf") format("truetype"), url("fonts/lato-regular-webfont.svg#latoregular") format("svg");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-italic-webfont.eot");
-  src: url("fonts/lato-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-italic-webfont.woff2") format("woff2"), url("fonts/lato-italic-webfont.woff") format("woff"), url("fonts/lato-italic-webfont.ttf") format("truetype"), url("fonts/lato-italic-webfont.svg#latoitalic") format("svg");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-medium-webfont.eot");
-  src: url("fonts/lato-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-medium-webfont.woff2") format("woff2"), url("fonts/lato-medium-webfont.woff") format("woff"), url("fonts/lato-medium-webfont.ttf") format("truetype"), url("fonts/lato-medium-webfont.svg#latomedium") format("svg");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-mediumitalic-webfont.eot");
-  src: url("fonts/lato-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-mediumitalic-webfont.woff2") format("woff2"), url("fonts/lato-mediumitalic-webfont.woff") format("woff"), url("fonts/lato-mediumitalic-webfont.ttf") format("truetype"), url("fonts/lato-mediumitalic-webfont.svg#latomedium_italic") format("svg");
-  font-weight: 500;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-semibold-webfont.eot");
-  src: url("fonts/lato-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-semibold-webfont.woff2") format("woff2"), url("fonts/lato-semibold-webfont.woff") format("woff"), url("fonts/lato-semibold-webfont.ttf") format("truetype"), url("fonts/lato-semibold-webfont.svg#latosemibold") format("svg");
+  font-family: 'Gotham';
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+  src: local("Gotham-medium"), url(./fonts/gothammedium.woff2) format("woff2"); }
 
 @font-face {
-  font-family: "lato";
-  src: url("fonts/lato-semibolditalic-webfont.eot");
-  src: url("fonts/lato-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-semibolditalic-webfont.woff2") format("woff2"), url("fonts/lato-semibolditalic-webfont.woff") format("woff"), url("fonts/lato-semibolditalic-webfont.ttf") format("truetype"), url("fonts/lato-semibolditalic-webfont.svg#latosemibold_italic") format("svg");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-bold-webfont.eot");
-  src: url("fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-bold-webfont.woff2") format("woff2"), url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.ttf") format("truetype"), url("fonts/lato-bold-webfont.svg#latobold") format("svg");
+  font-family: 'Gotham';
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+  src: local("Gotham-bold"), url(./fonts/gothambold.woff2) format("woff2"); }
 
 @font-face {
-  font-family: "lato";
-  src: url("fonts/lato-bolditalic-webfont.eot");
-  src: url("fonts/lato-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-bolditalic-webfont.woff2") format("woff2"), url("fonts/lato-bolditalic-webfont.woff") format("woff"), url("fonts/lato-bolditalic-webfont.ttf") format("truetype"), url("fonts/lato-bolditalic-webfont.svg#latobold_italic") format("svg");
-  font-weight: 700;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-heavy-webfont.eot");
-  src: url("fonts/lato-heavy-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-heavy-webfont.woff2") format("woff2"), url("fonts/lato-heavy-webfont.woff") format("woff"), url("fonts/lato-heavy-webfont.ttf") format("truetype"), url("fonts/lato-heavy-webfont.svg#latoheavy") format("svg");
-  font-weight: 800;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-heavyitalic-webfont.eot");
-  src: url("fonts/lato-heavyitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-heavyitalic-webfont.woff2") format("woff2"), url("fonts/lato-heavyitalic-webfont.woff") format("woff"), url("fonts/lato-heavyitalic-webfont.ttf") format("truetype"), url("fonts/lato-heavyitalic-webfont.svg#latoheavy_italic") format("svg");
-  font-weight: 800;
-  font-style: italic; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-black-webfont.eot");
-  src: url("fonts/lato-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-black-webfont.woff2") format("woff2"), url("fonts/lato-black-webfont.woff") format("woff"), url("fonts/lato-black-webfont.ttf") format("truetype"), url("fonts/lato-black-webfont.svg#latoblack") format("svg");
+  font-family: 'Gotham';
   font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: "lato";
-  src: url("fonts/lato-blackitalic-webfont.eot");
-  src: url("fonts/lato-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-blackitalic-webfont.woff2") format("woff2"), url("fonts/lato-blackitalic-webfont.woff") format("woff"), url("fonts/lato-blackitalic-webfont.ttf") format("truetype"), url("fonts/lato-blackitalic-webfont.svg#latoblack_italic") format("svg");
-  font-weight: 900;
-  font-style: italic; }
+  font-style: normal;
+  src: local("Gotham-black"), url(./fonts/gothamblack.woff2) format("woff2"); }
 
 @font-face {
   font-family: "NeutraTextTF";
   src: url("fonts/NeutraTextTFLight.eot");
   src: url("fonts/NeutraTextTFLight.eot") format("embedded-opentype"), url("fonts/NeutraTextTFLight.woff2") format("woff2"), url("fonts/NeutraTextTFLight.woff") format("woff"), url("fonts/NeutraTextTFLight.ttf") format("truetype"), url("fonts/NeutraTextTFLight.svg#NeutraTextTFLight") format("svg");
   font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: "NeutraTextTF";
-  src: url("fonts/NeutraTextTFBook.eot");
-  src: url("fonts/NeutraTextTFBook.eot") format("embedded-opentype"), url("fonts/NeutraTextTFBook.woff2") format("woff2"), url("fonts/NeutraTextTFBook.woff") format("woff"), url("fonts/NeutraTextTFBook.ttf") format("truetype"), url("fonts/NeutraTextTFBook.svg#NeutraTextTFBook") format("svg");
-  font-weight: normal;
   font-style: normal; }
 
 @font-face {
@@ -150,20 +41,6 @@
   font-family: "NeutraTextTF";
   src: url("fonts/NeutraTextTFBold.eot");
   src: url("fonts/NeutraTextTFBold.eot") format("embedded-opentype"), url("fonts/NeutraTextTFBold.woff2") format("woff2"), url("fonts/NeutraTextTFBold.woff") format("woff"), url("fonts/NeutraTextTFBold.ttf") format("truetype"), url("fonts/NeutraTextTFBold.svg#NeutraTextTFBold") format("svg");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: "NeutraTextTFAlt";
-  src: url("fonts/NeutraTextTFLightAlt.eot");
-  src: url("fonts/NeutraTextTFLightAlt.eot") format("embedded-opentype"), url("fonts/NeutraTextTFLightAlt.woff2") format("woff2"), url("fonts/NeutraTextTFLightAlt.woff") format("woff"), url("fonts/NeutraTextTFLightAlt.ttf") format("truetype"), url("fonts/NeutraTextTFLightAlt.svg#NeutraTextTFLightAlt") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: "NeutraTextTFAlt";
-  src: url("fonts/NeutraTextTFBoldAlt.eot");
-  src: url("fonts/NeutraTextTFBoldAlt.eot") format("embedded-opentype"), url("fonts/NeutraTextTFBoldAlt.woff2") format("woff2"), url("fonts/NeutraTextTFBoldAlt.woff") format("woff"), url("fonts/NeutraTextTFBoldAlt.ttf") format("truetype"), url("fonts/NeutraTextTFBoldAlt.svg#NeutraTextTFBoldAlt") format("svg");
   font-weight: 700;
   font-style: normal; }
 
@@ -634,7 +511,7 @@ html {
 body {
   color: #25051e;
   background: #25051e;
-  font: 17px/1.23529 "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  font: 17px/1.23529 "Lato", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -735,7 +612,7 @@ textarea {
   border: 0;
   background: #e2e2e2;
   display: block;
-  font: 600 17px/19px "Raleway", sans-serif;
+  font: 600 17px/19px "Gotham", sans-serif;
   outline: none; }
 
 input[type="text"]:focus,
@@ -863,7 +740,7 @@ input[type="submit"] {
   border: 0;
   color: #e2e2e2;
   padding: 8px 20px;
-  font: 600 17px/21px "Raleway", sans-serif;
+  font: 600 17px/21px "Gotham", sans-serif;
   text-transform: uppercase;
   -webkit-transition: background .3s ease;
   transition: background .3s ease; }
@@ -929,7 +806,7 @@ input[type="submit"] {
   border: 0;
   color: #e2e2e2;
   padding: 8px 20px;
-  font: 600 17px/21px "Raleway", sans-serif;
+  font: 600 17px/21px "Gotham", sans-serif;
   text-transform: uppercase;
   -webkit-transition: background .3s ease;
   transition: background .3s ease; }
@@ -952,7 +829,7 @@ input[type="submit"] {
   border: 0;
   color: #e2e2e2;
   padding: 8px 20px;
-  font: 600 17px/21px "Raleway", sans-serif;
+  font: 600 17px/21px "Gotham", sans-serif;
   text-transform: uppercase;
   -webkit-transition: background .3s ease;
   transition: background .3s ease;
@@ -1032,14 +909,14 @@ h6,
 h1,
 .h1 {
   font-size: 90px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   font-weight: 400;
   line-height: 90px; }
 
 h2,
 .h2 {
   font-size: 45px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   font-weight: 400;
   text-transform: uppercase; }
 
@@ -1127,7 +1004,7 @@ a:focus {
   left: 0;
   right: 0;
   padding: 50px 0 28px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   background: #FFFFFF;
   z-index: 200; }
 
@@ -1298,7 +1175,7 @@ iframe {
 .info-text {
   font-size: 45px;
   line-height: 54px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   padding: 150px 0 82px; }
 
 .main-video {
@@ -1324,7 +1201,7 @@ iframe {
   padding: 0 8%;
   font-size: 20px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0; }
 
@@ -1490,7 +1367,7 @@ iframe {
   font-size: 14px;
   text-transform: uppercase;
   color: #939393;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   display: block;
   padding: 0 0 8px; }
 
@@ -1526,7 +1403,7 @@ iframe {
   font-size: 26px;
   font-weight: 700;
   padding: 0 11px 0 0 !important;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Gotham", sans-serif; }
 
 .share-social-network li:after {
   display: none; }
@@ -1596,10 +1473,10 @@ iframe {
   color: #FFFFFF; }
 
 .head h1 {
-  font: 400 70px/74px "Raleway", sans-serif; }
+  font: 700 70px/74px "Gotham", sans-serif; }
 
 .head span {
-  font: 45px/47px "Raleway", sans-serif;
+  font: 45px/47px "Gotham", sans-serif;
   display: block; }
 
 .plan-wrap {
@@ -1650,7 +1527,7 @@ iframe {
 
 .plan-holder .box h2 {
   color: #007AFF;
-  font: 600 19px/20px "Raleway", sans-serif;
+  font: 600 19px/20px "Gotham", sans-serif;
   margin: 0 0 47px 61px; }
 
 .plan-holder .btn {
@@ -1705,7 +1582,7 @@ iframe {
 .wpcf7-form .check-holder label,
 .form .check-holder .wpcf7-list-item-label,
 .form .check-holder label {
-  font: 300 11px/14px "Raleway", sans-serif; }
+  font: 300 11px/14px "Gotham", sans-serif; }
 
 .wpcf7-form .select-wrap,
 .form .select-wrap {
@@ -1732,7 +1609,7 @@ iframe {
   border: 0;
   background: #e2e2e2;
   display: block;
-  font: 600 17px/19px "Raleway", sans-serif;
+  font: 600 17px/19px "Gotham", sans-serif;
   color: #999; }
 
 .wpcf7-form .input-box,
@@ -1744,7 +1621,7 @@ iframe {
 .wpcf7-form .input-box label,
 .form .input-box label {
   float: left;
-  font: 600 17px/19px "Raleway", sans-serif;
+  font: 600 17px/19px "Gotham", sans-serif;
   color: #999;
   margin: 10px 0 0; }
 
@@ -1789,7 +1666,7 @@ iframe {
   margin: 0 0 60px;
   color: #e2e2e2;
   padding: 8px 20px;
-  font: 600 19px/21px "Raleway", sans-serif;
+  font: 600 19px/21px "Gotham", sans-serif;
   text-transform: uppercase;
   -webkit-transition: background .3s ease;
   transition: background .3s ease; }
@@ -1863,7 +1740,7 @@ iframe {
 
 .work-list.full-list ul .ico {
   font-size: 22px;
-  font-family: "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 26px;
   top: 2px; }
 
@@ -1888,7 +1765,7 @@ iframe {
   padding: 6px 10px;
   width: 25px;
   height: 25px;
-  font: 700 18px/18px "Raleway", sans-serif;
+  font: 700 18px/18px "Gotham", sans-serif;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   content: counter(item, upper-latin);
@@ -1942,7 +1819,7 @@ iframe {
   position: absolute;
   top: 0;
   left: 0;
-  font: 700 18px/20px "Raleway", sans-serif;
+  font: 700 18px/20px "Gotham", sans-serif;
   width: 30px;
   overflow: hidden; }
 
@@ -2009,7 +1886,7 @@ iframe {
   padding: 0 0 18px 46px; }
 
 .section-info.style-works h2 {
-  font: 700 23px/25px "Raleway", sans-serif;
+  font: 700 23px/25px "Gotham", sans-serif;
   padding: 0 0 0 50px;
   margin: 0 0 30px; }
 
@@ -2035,7 +1912,7 @@ iframe {
 
 .section-info.style-privacy footer {
   text-align: center;
-  font: 300 15px/19px "Raleway", sans-serif;
+  font: 300 15px/19px "Gotham", sans-serif;
   padding: 28px 0 0; }
 
 .section-info.style-privacy footer p {
@@ -2051,7 +1928,7 @@ iframe {
 .section-info .note {
   display: block;
   margin: 0 auto;
-  font: 300 12px/18px "Raleway", sans-serif;
+  font: 300 12px/18px "Gotham", sans-serif;
   max-width: 300px;
   text-align: center;
   padding: 28px 0 0; }
@@ -2068,7 +1945,7 @@ iframe {
 
 .section-info .block-info.form-box footer {
   text-align: center;
-  font: 300 15px/19px "Raleway", sans-serif; }
+  font: 300 15px/19px "Gotham", sans-serif; }
 
 .section-info .block-info.form-box footer p {
   margin: 0 0 6px;
@@ -2125,7 +2002,7 @@ iframe {
   -ms-flex-align: center;
   align-items: center;
   color: #FF2222;
-  font: 700 58px/62px "Raleway", sans-serif;
+  font: 700 58px/62px "Gotham", sans-serif;
   padding: 0 15px; }
 
 .error-block .holder {
@@ -2141,7 +2018,7 @@ iframe {
   margin-bottom: 0; }
 
 .error-block .small {
-  font: 500 21px/24px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  font: 500 21px/24px "Lato", sans-serif;
   color: #23091d;
   text-transform: uppercase; }
 
@@ -2174,7 +2051,7 @@ iframe {
   display: inline-block;
   vertical-align: top;
   letter-spacing: 0;
-  font: 600 25px/32px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  font: 600 25px/32px "Lato", sans-serif;
   padding: 18px 20px;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -2236,7 +2113,7 @@ iframe {
   color: #FFFFFF;
   max-width: 795px;
   padding: 44px 40px 134px;
-  font: 500 25px/32px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
+  font: 500 25px/32px "Lato", sans-serif; }
 
 .section-info .block-info p {
   margin: 0 0 32px; }
@@ -2280,7 +2157,7 @@ iframe {
   color: #007AFF; }
 
 .section-info .title-section {
-  font: 700 48px/58px "Raleway", sans-serif;
+  font: 700 48px/58px "Gotham", sans-serif;
   color: #FF2222;
   margin: 0 0 48px; }
 
@@ -2363,7 +2240,7 @@ iframe {
   color: #FCC208; }
 
 .custom-block ul .txt {
-  font: 14px/22px "Raleway", sans-serif;
+  font: 14px/22px "Gotham", sans-serif;
   display: inline-block;
   vertical-align: middle;
   letter-spacing: 1px;
@@ -2384,7 +2261,7 @@ iframe {
   overflow: hidden;
   padding: 20px 90px 10px 135px;
   color: #a4a3a3;
-  font: 700 17px/21px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
+  font: 700 17px/21px "Lato", sans-serif; }
 
 .plan-two-columns .col .box-text p {
   margin: 0; }
@@ -2422,7 +2299,7 @@ iframe {
   color: #FFFFFF; }
 
 .plan-two-columns .plan-list {
-  font: 700 17px/21px "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  font: 700 17px/21px "Lato", sans-serif;
   padding: 53px 0 28px;
   color: #a4a3a3; }
 
@@ -2472,7 +2349,7 @@ iframe {
 
 #footer .nav-footer {
   text-transform: uppercase;
-  font: 700 11px/14px "Raleway", sans-serif; }
+  font: 700 11px/14px "Gotham", sans-serif; }
 
 #footer .nav-footer li {
   margin: 0 0 6px; }
@@ -2491,7 +2368,7 @@ iframe {
 
 #footer .custom {
   text-transform: uppercase;
-  font: 10px/10px "Raleway", sans-serif; }
+  font: 10px/10px "Gotham", sans-serif; }
 
 #footer .custom li {
   margin: 0 0 27px 4px; }
@@ -2516,7 +2393,7 @@ iframe {
   top: 0; }
 
 #footer .contact {
-  font: 12px/12px "Raleway", sans-serif; }
+  font: 12px/12px "Gotham", sans-serif; }
 
 #footer .contact li {
   margin: 0 0 8px; }
@@ -2531,7 +2408,7 @@ iframe {
   display: block;
   margin: 41px 0 9px;
   text-transform: uppercase;
-  font: 700 11px/12px "Raleway", sans-serif;
+  font: 700 11px/12px "Gotham", sans-serif;
   color: #b5b4b4; }
 
 #footer .row {
@@ -2562,7 +2439,7 @@ iframe {
   vertical-align: middle;
   letter-spacing: 0;
   padding: 10px 14px;
-  font: 300 14px/15px "Raleway", sans-serif;
+  font: 300 14px/15px "Gotham", sans-serif;
   width: 71.5%;
   background: #c6c5c6;
   color: #000000;
@@ -2601,7 +2478,7 @@ iframe {
   vertical-align: middle;
   letter-spacing: 0;
   margin: 0 0 0 10px;
-  font: 700 17px/17px "Raleway", sans-serif;
+  font: 700 17px/17px "Gotham", sans-serif;
   text-transform: uppercase;
   outline: none;
   -webkit-box-shadow: none;
@@ -2699,7 +2576,7 @@ iframe {
   overflow: hidden;
   cursor: default;
   display: block;
-  font: 700 13px/26px "Raleway", sans-serif;
+  font: 700 13px/26px "Gotham", sans-serif;
   margin: 4px 18px 0 5px;
   color: #bcbcbc; }
 
@@ -3196,7 +3073,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 .accordion .opener {
   display: block;
   text-transform: uppercase;
-  font: 25px/28px "Raleway", sans-serif;
+  font: 25px/28px "Gotham", sans-serif;
   color: #25051e;
   padding: 19px 33px; }
 
@@ -3221,7 +3098,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font: 25px/28px "Raleway", sans-serif;
+  font: 25px/28px "Gotham", sans-serif;
   text-transform: uppercase; }
 
 .tabset li:first-child a {
@@ -3765,10 +3642,10 @@ body > .jcf-select-drop.jcf-drop-flipped {
 
 b,
 strong {
-  font-weight: 900; }
+  font-weight: 700; }
 
 body {
-  font-weight: 200; }
+  font-weight: 300; }
 
 li#section-a:last-of-type,
 li#section-b:last-of-type,
@@ -3899,6 +3776,7 @@ header#header {
           header#header .header-holder .col .logo a span {
             font-size: 24px;
             color: #000000;
+            font-family: "NeutraTextTF";
             line-height: 0.5; }
   header#header #nav {
     display: -webkit-flex;
@@ -3923,8 +3801,9 @@ header#header {
     align-items: center;
     padding: 0; }
     header#header #nav ul {
-      text-transform: capitalize;
-      font-weight: 500; }
+      font-weight: 400;
+      letter-spacing: -1px;
+      text-transform: capitalize; }
 
 h1.title-section {
   font-weight: 400 !important; }
@@ -4063,7 +3942,7 @@ li#section-c {
 #anchor-section-editorial-team section.section-info .block-info .head h1,
 #anchor-section-enterprise section.section-info .block-info .head h1 {
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-family: "Gotham", sans-serif;
   color: #FFFFFF; }
 
 section.section-info.style-two {
@@ -4156,11 +4035,35 @@ aside.sidebar.fixed {
           content: none; }
 
 .btn {
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 45%;
   margin-top: 20px;
   height: 70px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-right: 20px; }
+  .btn:last-of-type {
+    margin-right: 0; }
   .btn:hover {
     -webkit-box-shadow: inset 0 -100px 0 2px #FFFFFF;
     box-shadow: inset 0 -100px 0 2px #FFFFFF;
@@ -4215,6 +4118,21 @@ aside.sidebar.fixed {
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   transform: translateY(-5px); }
+
+.custom-block,
+.custom-block.two {
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding: 20px;
+  background-color: rgba(37, 5, 30, 0.85); }
+  .custom-block ul li:last-of-type,
+  .custom-block.two ul li:last-of-type {
+    margin-right: 0; }
+  .custom-block ul li a span,
+  .custom-block.two ul li a span {
+    font-weight: 600 !important; }
 
 .plan-table-wrapper {
   display: -webkit-flex;
@@ -4316,7 +4234,7 @@ aside.sidebar.fixed {
         height: 55px;
         z-index: 4;
         text-transform: uppercase;
-        font-family: "Raleway", sans-serif;
+        font-family: "Gotham", sans-serif;
         font-size: 20px; }
     .plan-table-wrapper .plan-table .col-details {
       width: 100%;
@@ -4327,7 +4245,7 @@ aside.sidebar.fixed {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      font-family: "lato", "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
+      font-family: "Lato", sans-serif; }
     .plan-table-wrapper .plan-table .col-content {
       position: relative;
       background-color: rgba(37, 5, 30, 0.1);
@@ -4401,7 +4319,7 @@ aside.sidebar.fixed {
       align-items: center;
       width: 100%;
       height: 100%;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Gotham", sans-serif; }
       .plan-table-wrapper .plan-table .plan-table-col-edit .col-details .col-details-wrap h3,
       .plan-table-wrapper .plan-table .plan-table-col-ent .col-details .col-details-wrap h3 {
         font-size: 20px;
@@ -4493,7 +4411,7 @@ aside.sidebar.fixed {
       .plan-table-wrapper .plan-table .plan-table-col-blog .col-title h3 {
         color: #007AFF; }
       .plan-table-wrapper .plan-table .plan-table-col-blog .col-details {
-        font-family: "Raleway", sans-serif;
+        font-family: "Gotham", sans-serif;
         background-color: #007AFF; }
         .plan-table-wrapper .plan-table .plan-table-col-blog .col-details .col-details-wrap {
           display: -webkit-flex;
@@ -5848,4 +5766,229 @@ aside.sidebar.fixed {
     justify-content: center; }
     section.section-info.style-two .block-info a.btn {
       width: 100%;
-      margin: 10px  auto !important; } }
+      margin: 10px  auto !important; }
+  .plan-table-wrapper {
+    width: 310px;
+    margin: auto;
+    margin-top: 30px; }
+    .plan-table-wrapper .plan-table {
+      display: none; }
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox].plan-lead {
+      position: absolute;
+      z-index: -3000;
+      display: none; }
+    .plan-table-wrapper .plan-table-tablet label#plan-blogger,
+    .plan-table-wrapper .plan-table-tablet label#plan-editorial,
+    .plan-table-wrapper .plan-table-tablet label#plan-enterprise {
+      letter-spacing: 1px; }
+    .plan-table-wrapper .plan-table-tablet label#plan-blogger {
+      color: #007AFF; }
+    .plan-table-wrapper .plan-table-tablet label#plan-editorial {
+      color: #FCC208; }
+    .plan-table-wrapper .plan-table-tablet label#plan-enterprise {
+      color: #FF2222; }
+    .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold,
+    .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold,
+    .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-hold-plan-title h2,
+      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-hold-plan-title h2,
+      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-hold-plan-title h2 {
+        margin: 0;
+        z-index: 20;
+        font-weight: 700; }
+      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .box-text,
+      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .box-text,
+      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .box-text {
+        padding-top: 30px; }
+        .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .box-text p,
+        .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .box-text p,
+        .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .box-text p {
+          padding: auto 10px;
+          max-width: 290px;
+          font-size: 20spx;
+          line-height: 1.8; }
+      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list .col-details,
+      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list .col-details,
+      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list .col-details {
+        padding-bottom: 0; }
+        .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list .col-details .col-details-row,
+        .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list .col-details .col-details-row,
+        .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list .col-details .col-details-row {
+          width: 290px;
+          margin: auto; }
+          .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list .col-details .col-details-row:first-of-type,
+          .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list .col-details .col-details-row:first-of-type,
+          .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list .col-details .col-details-row:first-of-type {
+            margin-bottom: 25px; }
+          .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list .col-details .col-details-row span,
+          .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list .col-details .col-details-row span,
+          .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list .col-details .col-details-row span {
+            font-size: 18px; }
+      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li,
+      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li,
+      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li {
+        font-size: 16px;
+        font-weight: 500; }
+        .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .col-plan-list ul.plan-list li::before,
+        .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .col-plan-list ul.plan-list li::before,
+        .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .col-plan-list ul.plan-list li::before {
+          position: absolute;
+          left: -25px;
+          top: 7px;
+          content: " ";
+          background-size: cover;
+          width: 10px;
+          height: 10px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0; }
+      .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .btn-hold,
+      .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .btn-hold,
+      .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .btn-hold {
+        z-index: 20;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: auto; }
+        .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .btn-hold a.btn,
+        .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .btn-hold a.btn,
+        .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .btn-hold a.btn {
+          width: 290px;
+          color: #FFFFFF; }
+          .plan-table-wrapper .plan-table-tablet .plan-details-blogger .col-hold .btn-hold a.btn:hover,
+          .plan-table-wrapper .plan-table-tablet .plan-details-editorial .col-hold .btn-hold a.btn:hover,
+          .plan-table-wrapper .plan-table-tablet .plan-details-enterprise .col-hold .btn-hold a.btn:hover {
+            background-color: #FFFFFF; }
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ label#plan-blogger::after,
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ label#plan-editorial::after,
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ label#plan-enterprise::after {
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      content: "";
+      width: 30px;
+      height: 30px;
+      -webkit-transform: rotate(45deg) translateX(-webkit-calc(-50% - 4px));
+      -ms-transform: rotate(45deg) translateX(calc(-50% - 4px));
+      transform: rotate(45deg) translateX(calc(-50% - 4px));
+      -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+      transform-origin: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #fff; }
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: #007AFF; }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger .box-text {
+        background-color: #007AFF; }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger .col-plan-list::before {
+        content: " ";
+        background-color: rgba(0, 122, 255, 0.25); }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger .col-plan-list ul.plan-list li::before {
+        background-image: url(./images/icon-blue.png); }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger a.btn {
+        background-color: #007AFF; }
+        .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger a.btn:hover {
+          color: #007AFF !important; }
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: #FCC208; }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial .box-text {
+        background-color: #FCC208; }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial .col-plan-list::before {
+        content: " ";
+        background-color: rgba(252, 194, 8, 0.25); }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial .col-plan-list ul.plan-list li::before {
+        background-image: url(./images/icon-yellow.png); }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial a.btn {
+        background-color: #FCC208; }
+        .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial a.btn:hover {
+          color: #FCC208 !important; }
+    .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: #FF2222; }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise .box-text {
+        background-color: #FF2222; }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise .col-plan-list::before {
+        content: " ";
+        background-color: rgba(255, 34, 34, 0.25); }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise .col-plan-list ul.plan-list li::before {
+        background-image: url(./images/icon-red.png); }
+      .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise a.btn {
+        background-color: #FF2222; }
+        .plan-table-wrapper .plan-table-tablet input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise a.btn:hover {
+          color: #FF2222 !important; } }

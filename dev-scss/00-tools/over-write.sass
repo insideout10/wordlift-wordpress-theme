@@ -1,10 +1,10 @@
 // B & STRONG MORE THICK
 b,
 strong
-  font-weight: 900
+  font-weight: 700
 
 body
-  font-weight: 200
+  font-weight: 300
 
 li#section-a,
 li#section-b,
@@ -31,7 +31,7 @@ li#section-c
     justify-content: center
     align-items: center
 
-  // STYLING SUBSECTION BULLETS
+// STYLING SUBSECTION BULLETS
 .work-list
   ul
     li
@@ -57,6 +57,7 @@ header#header
   min-height: 50px
   box-sizing: content-box
   padding: 20px 40px
+
   .header-holder
     height: auto
 
@@ -92,7 +93,8 @@ header#header
             margin-right: 10px
           span
             font-size: 24px
-            color: #000000
+            color: $wl-black-color
+            font-family: "NeutraTextTF"
             line-height: 0.5
   #nav
     display: -webkit-flex
@@ -106,8 +108,10 @@ header#header
     padding: 0
 
     ul
+      font-weight: 400
+      letter-spacing: -1px
       text-transform: capitalize
-      font-weight: 500
+
 
 //  MAKING H1 NOT BOLD
 h1.title-section
@@ -295,9 +299,21 @@ aside.sidebar.fixed
 
 // FIXING LEARN MORE BTN
 .btn
+  display: -webkit-inline-flex
+  display: -moz-inline-flex
+  display: -ms-inline-flex
+  display: -o-inline-flex
+  display: inline-flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  max-width: 45%
   margin-top: 20px
   height: 70px
   box-sizing: border-box
+  margin-right: 20px
+  &:last-of-type
+    margin-right: 0
   &:hover
     box-shadow: inset 0 -100px 0 2px  $wl-white-color
     color: $wl-blogger-color
@@ -355,3 +371,21 @@ aside.sidebar.fixed
 // FIXIN' TOP SECTION
 #home.top-section
   transform: translateY(-5px)
+
+// LINK STYLING
+.custom-block,
+.custom-block.two
+  position: absolute
+  margin-top: 0
+  margin-bottom: 20px
+  padding-top: 0
+  padding: 20px
+  background-color: rgba($wl-dark-bg-color, .85)
+  ul
+
+    li
+      &:last-of-type
+        margin-right: 0
+      a
+        span
+          font-weight: 600 !important

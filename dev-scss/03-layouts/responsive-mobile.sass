@@ -112,3 +112,214 @@
       a.btn
         width: 100%
         margin: 10px  auto !important
+
+  // PRICING
+  .plan-table-wrapper
+    width: 310px
+    margin: auto
+    margin-top: 30px
+    .plan-table
+      display: none
+
+    .plan-table-tablet
+
+      input[type=checkbox].plan-lead
+        position: absolute
+        z-index: -3000
+        display: none
+
+      label#plan-blogger,
+      label#plan-editorial,
+      label#plan-enterprise
+        letter-spacing: 1px
+
+      label#plan-blogger
+        color: $wl-blogger-color
+
+      label#plan-editorial
+        color: $wl-editorial-color
+
+      label#plan-enterprise
+        color: $wl-enterprise-color
+
+      .plan-details-blogger,
+      .plan-details-editorial,
+      .plan-details-enterprise
+
+        .col-hold
+          display: -webkit-flex
+          display: -moz-flex
+          display: -ms-flex
+          display: -o-flex
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: flex-start
+
+          .col-hold-plan-title
+
+            h2
+              margin: 0
+              z-index: 20
+              font-weight: 700
+
+          .box-text
+            padding-top: 30px
+
+            p
+              padding: auto 10px
+              max-width: 290px
+              font-size: 20spx
+              line-height: 1.8
+
+          .col-plan-list
+
+            .col-details
+              padding-bottom: 0
+
+              .col-details-row
+                width: 290px
+                margin: auto
+                &:first-of-type
+                  margin-bottom: 25px
+
+                span
+                  font-size: 18px
+
+            ul.plan-list
+
+              li
+                font-size: 16px
+                font-weight: 500
+                &::before
+                  position: absolute
+                  left: -25px
+                  top: 7px
+                  content: " "
+                  background:
+                    size: cover
+                  width: 10px
+                  height: 10px
+                  box-sizing: border-box
+                  padding: 0
+                  margin: 0
+
+          .btn-hold
+            z-index: 20
+            display: -webkit-flex
+            display: -moz-flex
+            display: -ms-flex
+            display: -o-flex
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin: auto
+            a.btn
+              width: 290px
+              color: $wl-white-color
+              &:hover
+                background-color: $wl-white-color
+
+
+      input[type=checkbox]#plan-blogger:checked ~ label#plan-blogger,
+      input[type=checkbox]#plan-editorial:checked ~ label#plan-editorial,
+      input[type=checkbox]#plan-enterprise:checked ~ label#plan-enterprise
+        &::after
+          position: absolute
+          bottom: -20px
+          left: 50%
+          content: ""
+          width: 30px
+          height: 30px
+          transform: rotate(45deg) translateX(calc(-50% - 4px))
+          transform-origin: center
+          box-sizing: border-box
+          background-color: #fff
+
+      input[type=checkbox]#plan-blogger:checked ~ .plan-details-blogger
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        background-color: $wl-blogger-color
+
+        .box-text
+          background-color: $wl-blogger-color
+
+        .col-plan-list
+          &::before
+            content: " "
+            background-color: rgba($wl-blogger-color , .25)
+          ul.plan-list
+            li
+              // color: $wl-blogger-color
+              &::before
+                background:
+                  image: url(./images/icon-blue.png)
+
+        a.btn
+          background-color: $wl-blogger-color
+          &:hover
+            color: $wl-blogger-color !important
+
+      input[type=checkbox]#plan-editorial:checked ~ .plan-details-editorial
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        background-color: $wl-editorial-color
+        .box-text
+          background-color: $wl-editorial-color
+
+        .col-plan-list
+          &::before
+            content: " "
+            background-color: rgba($wl-editorial-color , .25)
+          ul.plan-list
+            li
+              // color: $wl-editorial-color
+              &::before
+                background:
+                  image: url(./images/icon-yellow.png)
+
+
+        a.btn
+          background-color: $wl-editorial-color
+          &:hover
+            color: $wl-editorial-color !important
+
+
+      input[type=checkbox]#plan-enterprise:checked ~ .plan-details-enterprise
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        flex-direction: column
+        background-color: $wl-enterprise-color
+
+        .box-text
+          background-color: $wl-enterprise-color
+
+        .col-plan-list
+          &::before
+            content: " "
+            background-color: rgba($wl-enterprise-color , .25)
+
+          ul.plan-list
+            li
+              // color: $wl-enterprise-color
+              &::before
+                background:
+                  image: url(./images/icon-red.png)
+
+
+        a.btn
+          background-color: $wl-enterprise-color
+          &:hover
+            color: $wl-enterprise-color !important
